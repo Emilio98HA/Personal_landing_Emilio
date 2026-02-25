@@ -1,0 +1,24 @@
+# Personal Landing Page — Emilio Hernandez
+
+Academic depth meets industry impact. This repository contains the source code for my professional landing page, optimized for both PhD applications and Industry R&D roles.
+
+## 🚀 Live Site
+Check it out here: [emilio98ha.github.io/Personal_landing_Emilio/](https://emilio98ha.github.io/Personal_landing_Emilio/)
+
+## 🛠️ Tech Stack
+- **Languages:** HTML5, Vanilla CSS, JavaScript
+- **Design:** Modern "Brutalist" Minimalist, Dual-Identity Path
+- **Deployment:** GitHub Pages
+
+## 📂 Structure
+- `index.html`: Main landing page logic and styles.
+- `Images/`: Assets including research papers, project visuals, and profile shots.
+
+## 👨‍💻 Key Features
+- **Dual Identity Toggle:** Tailored narratives for research vs. engineering.
+- **Scroll-Reveal Animations:** Smooth storytelling as you navigate.
+- **Dark/Light Mode:** Manual toggle with persistent preference.
+- **Responsive Design:** Optimized for all screen sizes.
+
+---
+*Built with rigor and speed by Emilio Hernandez.*
