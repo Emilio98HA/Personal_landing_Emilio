@@ -20,5 +20,8 @@ Check it out here: [emilio98ha.github.io/Personal_landing_Emilio/](https://emili
 - **Dark/Light Mode:** Manual toggle with persistent preference.
 - **Responsive Design:** Optimized for all screen sizes.
 
+## 🎨 Meta: The Build Process
+This portfolio is a demonstration of **Vibecoding** (Agentic AI Development). Instead of traditional manual coding, it was built through iterative collaboration with AI agents. For an AI researcher, this represents the shift from writing boilerplate to **high-level orchestration, design, and systemic oversight.**
+
 ---
 *Built with rigor and speed by Emilio Hernandez.*
