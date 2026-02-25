@@ -13,30 +13,40 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <style>
         :root,
-        [data-theme="light"] {
-            --bg: #f5f2ec;
-            --bg2: #ede9e1;
-            --bg3: #e6e1d8;
-            --border: #d4cfc6;
-            --text: #1a1714;
-            --text-muted: #7a7268;
-            --text-dim: #5a544c;
-            --accent: #3da9fc;
-            --accent-dim: rgba(61, 169, 252, 0.1);
-            --nav-bg: rgba(245, 242, 236, 0.95);
+        [data-theme="dark"] {
+            --bg: #080808;
+            --bg2: #0f0f0f;
+            --bg3: #161616;
+            --border: #1e1e1e;
+            --border-hover: #2e2e2e;
+            --text: #f0ebe2;
+            --text-muted: #5a5650;
+            --text-dim: #8a847c;
+            --accent: #c9a96e;
+            --accent-dim: rgba(201, 169, 110, 0.08);
+            --accent-glow: rgba(201, 169, 110, 0.15);
+            --green: #4a8a72;
+            --green-dim: rgba(74, 138, 114, 0.1);
+            --nav-bg: rgba(8, 8, 8, 0.92);
+            --card-bg: #0c0c0c;
         }
 
-        [data-theme="dark"] {
-            --bg: #0a0a0a;
-            --bg2: #111111;
-            --bg3: #161616;
-            --border: #222222;
-            --text: #e8e4dc;
-            --text-muted: #666;
-            --text-dim: #999;
-            --accent: #3da9fc;
-            --accent-dim: rgba(61, 169, 252, 0.15);
-            --nav-bg: rgba(10, 10, 10, 0.95);
+        [data-theme="light"] {
+            --bg: #f7f4ef;
+            --bg2: #eeeae3;
+            --bg3: #e6e1d8;
+            --border: #d8d2c8;
+            --border-hover: #b8b2a8;
+            --text: #1a1714;
+            --text-muted: #8a847c;
+            --text-dim: #5a544c;
+            --accent: #8b6914;
+            --accent-dim: rgba(139, 105, 20, 0.08);
+            --accent-glow: rgba(139, 105, 20, 0.12);
+            --green: #3a6a52;
+            --green-dim: rgba(58, 106, 82, 0.1);
+            --nav-bg: rgba(247, 244, 239, 0.92);
+            --card-bg: #f0ece5;
         }
 
         * {
@@ -56,62 +66,106 @@
             font-size: 16px;
             line-height: 1.6;
             overflow-x: hidden;
-            transition: background 0.35s ease, color 0.35s ease;
+            transition: background 0.4s ease, color 0.4s ease;
         }
 
+        /* Grain overlay */
         body::before {
             content: '';
             position: fixed;
             inset: 0;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
             pointer-events: none;
             z-index: 9999;
-            opacity: 0.35;
+            opacity: 0.4;
         }
 
+        /* Ambient glow */
+        .ambient {
+            position: fixed;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            filter: blur(120px);
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.06;
+            background: var(--accent);
+            top: -200px;
+            right: -100px;
+            transition: opacity 0.4s;
+        }
+
+        /* NAV */
         nav {
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
             z-index: 100;
-            padding: 0 40px;
-            height: 70px;
+            padding: 0 48px;
+            height: 64px;
             display: flex;
             align-items: center;
             justify-content: center;
             border-bottom: 1px solid var(--border);
             background: var(--nav-bg);
-            backdrop-filter: blur(12px);
+            backdrop-filter: blur(16px);
         }
 
         .nav-content {
             width: 100%;
-            max-width: 1100px;
+            max-width: 1140px;
             display: flex;
             justify-content: center;
             align-items: center;
             position: relative;
         }
 
+        .nav-logo {
+            font-family: 'DM Mono', monospace;
+            font-size: 11px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            text-decoration: none;
+        }
+
         .nav-links {
             display: flex;
-            gap: 32px;
+            gap: 36px;
             list-style: none;
         }
 
         .nav-links a {
             font-family: 'DM Mono', monospace;
-            font-size: 11px;
+            font-size: 10px;
             color: var(--text-muted);
             text-decoration: none;
             text-transform: uppercase;
-            letter-spacing: 0.08em;
+            letter-spacing: 0.1em;
             transition: color 0.2s;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: var(--accent);
+            transform: scaleX(0);
+            transition: transform 0.2s;
         }
 
         .nav-links a:hover {
             color: var(--accent);
+        }
+
+        .nav-links a:hover::after {
+            transform: scaleX(1);
         }
 
         .nav-actions {
@@ -119,19 +173,20 @@
             right: 0;
             display: flex;
             align-items: center;
-            gap: 15px;
+            gap: 12px;
         }
 
         .theme-toggle {
             background: none;
             border: 1px solid var(--border);
             border-radius: 20px;
-            padding: 5px 12px;
+            padding: 5px 14px;
             color: var(--text-muted);
             font-family: 'DM Mono', monospace;
             font-size: 10px;
             cursor: pointer;
             transition: 0.2s;
+            letter-spacing: 0.05em;
         }
 
         .theme-toggle:hover {
@@ -142,7 +197,7 @@
         .menu-toggle {
             display: none;
             flex-direction: column;
-            gap: 4px;
+            gap: 5px;
             cursor: pointer;
             background: none;
             border: none;
@@ -150,36 +205,60 @@
         }
 
         .bar {
-            width: 22px;
-            height: 2px;
-            background: var(--text);
+            width: 20px;
+            height: 1.5px;
+            background: var(--text-muted);
             transition: 0.3s;
             border-radius: 2px;
         }
 
-        /* Hero Section */
+        /* HERO */
         .hero {
             min-height: 100vh;
             display: flex;
             align-items: center;
-            padding: 100px 40px 60px;
+            padding: 120px 48px 80px;
+            position: relative;
         }
 
         .hero-inner {
-            max-width: 1100px;
+            max-width: 1140px;
             margin: 0 auto;
             width: 100%;
             display: grid;
-            grid-template-columns: 1fr 320px;
-            gap: 60px;
+            grid-template-columns: 1fr 300px;
+            gap: 80px;
             align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-eyebrow {
+            font-family: 'DM Mono', monospace;
+            font-size: 10px;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            margin-bottom: 28px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .hero-eyebrow::before {
+            content: '';
+            display: block;
+            width: 32px;
+            height: 1px;
+            background: var(--accent);
         }
 
         .hero h1 {
             font-family: 'DM Serif Display', serif;
-            font-size: clamp(40px, 6vw, 72px);
-            line-height: 1.1;
-            margin-bottom: 24px;
+            font-size: clamp(44px, 6vw, 80px);
+            line-height: 1.05;
+            margin-bottom: 28px;
+            letter-spacing: -0.02em;
         }
 
         .hero h1 em {
@@ -188,11 +267,11 @@
         }
 
         .hero-desc {
-            font-size: 18px;
+            font-size: 17px;
             color: var(--text-dim);
-            line-height: 1.7;
-            max-width: 600px;
-            margin-bottom: 40px;
+            line-height: 1.75;
+            max-width: 520px;
+            margin-bottom: 44px;
         }
 
         .hero-desc strong {
@@ -203,21 +282,22 @@
         .hero-links {
             display: flex;
             flex-wrap: wrap;
-            gap: 12px;
+            gap: 10px;
         }
 
         .hero-link {
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            padding: 10px 18px;
+            padding: 10px 20px;
             border: 1px solid var(--border);
             border-radius: 2px;
             font-family: 'DM Mono', monospace;
-            font-size: 11px;
+            font-size: 10px;
             color: var(--text-muted);
             text-decoration: none;
             text-transform: uppercase;
+            letter-spacing: 0.08em;
             transition: all 0.2s;
         }
 
@@ -227,224 +307,387 @@
             background: var(--accent-dim);
         }
 
-        .profile-img {
-            width: 320px;
-            height: 320px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 6px solid white;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        .hero-link.primary {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: #080808;
+            font-weight: 600;
         }
 
-        /* Typography Restructuring */
-        section {
-            padding: 100px 40px;
+        .hero-link.primary:hover {
+            background: transparent;
+            color: var(--accent);
+        }
+
+        /* Profile image */
+        .hero-image-wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-frame {
+            position: relative;
+            width: 260px;
+            height: 260px;
+        }
+
+        .profile-frame::before {
+            content: '';
+            position: absolute;
+            inset: -12px;
+            border: 1px solid var(--border);
+            border-radius: 50%;
+        }
+
+        .profile-frame::after {
+            content: '';
+            position: absolute;
+            inset: -24px;
+            border: 1px solid var(--border);
+            border-radius: 50%;
+            opacity: 0.4;
+        }
+
+        .profile-img {
+            width: 260px;
+            height: 260px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid var(--border);
+            filter: grayscale(20%);
+            transition: filter 0.4s;
+        }
+
+        .profile-img:hover {
+            filter: grayscale(0%);
+        }
+
+        /* Stats row */
+        .hero-stats {
+            display: flex;
+            gap: 40px;
+            margin-top: 48px;
+            padding-top: 40px;
             border-top: 1px solid var(--border);
         }
 
+        .stat {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .stat-number {
+            font-family: 'DM Serif Display', serif;
+            font-size: 32px;
+            color: var(--text);
+            line-height: 1;
+        }
+
+        .stat-label {
+            font-family: 'DM Mono', monospace;
+            font-size: 10px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 120px 48px;
+            border-top: 1px solid var(--border);
+            position: relative;
+        }
+
         .container {
-            max-width: 1100px;
+            max-width: 1140px;
             margin: 0 auto;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: baseline;
+            gap: 24px;
+            margin-bottom: 64px;
+        }
+
+        .section-number {
+            font-family: 'DM Mono', monospace;
+            font-size: 11px;
+            color: var(--text-muted);
+            opacity: 0.5;
         }
 
         .section-title {
             font-family: 'DM Serif Display', serif;
-            font-size: clamp(48px, 6vw, 72px);
+            font-size: clamp(40px, 5vw, 64px);
             line-height: 1.0;
-            margin-bottom: 16px;
-            color: var(--primary-color);
+            letter-spacing: -0.02em;
         }
 
         .section-subtitle {
             font-family: 'DM Serif Display', serif;
-            font-size: clamp(24px, 3vw, 32px);
+            font-size: clamp(18px, 2vw, 24px);
             color: var(--text-muted);
             font-style: italic;
-            margin-bottom: 48px;
+            margin-top: 8px;
         }
 
-        /* Dual Path Styling */
+        /* DUALITY */
         .dual-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 40px;
-            margin-bottom: 64px;
+            gap: 2px;
+            margin-bottom: 80px;
+            border: 1px solid var(--border);
         }
 
         .path-box {
-            padding: 36px;
-            border: 1px solid var(--border);
-            border-radius: 4px;
+            padding: 48px;
             background: var(--bg2);
             transition: 0.3s;
+            position: relative;
+            overflow: hidden;
         }
 
-        .path-box:hover {
-            border-color: var(--accent);
+        .path-box::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--accent);
+            transform: scaleX(0);
+            transition: transform 0.4s;
+        }
+
+        .path-box.research::before {
+            background: var(--accent);
+        }
+
+        .path-box.builder::before {
+            background: var(--green);
+        }
+
+        .path-box:hover::before {
+            transform: scaleX(1);
         }
 
         .path-tag {
             font-family: 'DM Mono', monospace;
-            font-size: 10px;
-            padding: 4px 8px;
+            font-size: 9px;
+            padding: 4px 10px;
             border-radius: 2px;
-            margin-bottom: 16px;
+            margin-bottom: 20px;
             display: inline-block;
             text-transform: uppercase;
+            letter-spacing: 0.12em;
         }
 
         .tag-phd {
             background: var(--accent-dim);
             color: var(--accent);
+            border: 1px solid rgba(201, 169, 110, 0.2);
         }
 
         .tag-job {
-            background: rgba(74, 138, 114, 0.1);
-            color: #4a8a72;
+            background: var(--green-dim);
+            color: var(--green);
+            border: 1px solid rgba(74, 138, 114, 0.2);
         }
 
         .path-box h3 {
             font-family: 'DM Serif Display', serif;
-            font-size: 26px;
-            margin-bottom: 12px;
+            font-size: 28px;
+            margin-bottom: 14px;
+            letter-spacing: -0.01em;
         }
 
         .path-box p {
-            font-size: 16px;
+            font-size: 15px;
             color: var(--text-dim);
+            line-height: 1.7;
         }
 
-        /* Skills Layout */
+        /* SKILLS */
         .skills-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 48px;
-            margin-top: 32px;
         }
 
         .skill-group h3 {
             font-family: 'DM Mono', monospace;
-            font-size: 11px;
-            color: var(--text-muted);
+            font-size: 10px;
+            color: var(--accent);
             text-transform: uppercase;
-            letter-spacing: 0.12em;
+            letter-spacing: 0.15em;
             margin-bottom: 20px;
+            padding-bottom: 12px;
             border-bottom: 1px solid var(--border);
-            padding-bottom: 8px;
         }
 
         .skill-tags {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
+            gap: 8px;
         }
 
         .skill-tag {
             display: inline-flex;
             align-items: center;
-            gap: 8px;
-            padding: 8px 14px;
+            gap: 7px;
+            padding: 7px 12px;
             border: 1px solid var(--border);
             font-family: 'DM Mono', monospace;
-            font-size: 12px;
+            font-size: 11px;
             border-radius: 2px;
             transition: 0.2s;
+            color: var(--text-dim);
         }
 
         .skill-tag:hover {
             border-color: var(--accent);
             color: var(--text);
-            background: var(--bg3);
+            background: var(--accent-dim);
         }
 
-        /* Cards */
+        /* CARDS */
         .card-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 32px;
+            gap: 1px;
+            background: var(--border);
+            border: 1px solid var(--border);
         }
 
         .glass-card {
-            background: var(--bg2);
-            padding: 40px;
-            border-radius: 4px;
-            border: 1px solid var(--border);
+            background: var(--card-bg);
+            padding: 44px;
             transition: all 0.3s ease;
             display: flex;
             flex-direction: column;
+            position: relative;
+        }
+
+        .glass-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--accent), transparent);
+            opacity: 0;
+            transition: opacity 0.3s;
         }
 
         .glass-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--accent);
-            background: var(--bg3);
+            background: var(--bg2);
+        }
+
+        .glass-card:hover::after {
+            opacity: 1;
+        }
+
+        .glass-card.highlight-card {
+            border: 1px solid var(--accent);
+        }
+
+        .glass-card.highlight-card::before {
+            content: 'CORE RESEARCH';
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-family: 'DM Mono', monospace;
+            font-size: 8px;
+            color: var(--accent);
+            letter-spacing: 0.12em;
+            border: 1px solid var(--accent);
+            padding: 3px 8px;
+            border-radius: 2px;
+            opacity: 0.8;
         }
 
         .timeline-date {
             font-family: 'DM Mono', monospace;
-            font-size: 12px;
+            font-size: 11px;
             color: var(--accent);
-            margin-bottom: 12px;
+            margin-bottom: 14px;
             font-weight: 500;
+            letter-spacing: 0.05em;
         }
 
         .edu-logo {
-            height: 50px;
-            margin-bottom: 20px;
-            filter: grayscale(100%);
+            height: 44px;
+            margin-bottom: 24px;
+            filter: grayscale(100%) brightness(0.7);
             transition: 0.3s;
-            align-self: flex-start;
+            align-self: center;
+            object-fit: contain;
         }
 
         .glass-card:hover .edu-logo {
-            filter: grayscale(0%);
+            filter: grayscale(0%) brightness(1);
         }
 
-        .timeline-content h3 {
+        .glass-card h3 {
             font-family: 'DM Serif Display', serif;
-            font-size: 24px;
-            margin-bottom: 4px;
-        }
-
-        .timeline-content h4 {
-            font-family: 'DM Mono', monospace;
-            font-size: 12px;
-            color: var(--text-muted);
-            font-weight: 400;
-            margin-bottom: 16px;
-            text-transform: uppercase;
-        }
-
-        .timeline-content ul {
-            padding-left: 20px;
-            color: var(--text-dim);
-            font-size: 15px;
-        }
-
-        .timeline-content li {
-            margin-bottom: 8px;
-        }
-
-        .research-card h3 {
-            font-family: 'DM Serif Display', serif;
-            font-size: 20px;
-            margin-bottom: 12px;
+            font-size: 22px;
+            margin-bottom: 6px;
+            letter-spacing: -0.01em;
             line-height: 1.3;
         }
 
+        .glass-card h4 {
+            font-family: 'DM Mono', monospace;
+            font-size: 10px;
+            color: var(--text-muted);
+            font-weight: 400;
+            margin-bottom: 18px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .glass-card p {
+            font-size: 14px;
+            color: var(--text-dim);
+            line-height: 1.7;
+        }
+
+        .glass-card ul {
+            padding-left: 18px;
+            color: var(--text-dim);
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .glass-card li {
+            margin-bottom: 10px;
+        }
+
+        .glass-card li strong {
+            color: var(--text);
+        }
+
+        /* RESEARCH */
         .research-meta {
             font-family: 'DM Mono', monospace;
-            font-size: 11px;
+            font-size: 10px;
             color: var(--accent);
             text-transform: uppercase;
-            margin-bottom: 8px;
+            letter-spacing: 0.12em;
+            margin-bottom: 12px;
+            display: block;
         }
 
         .research-journal {
             font-family: 'DM Serif Display', serif;
-            font-size: 17px;
+            font-size: 15px;
             font-style: italic;
-            color: var(--text);
+            color: var(--text-dim);
             margin-bottom: 10px;
             display: block;
         }
@@ -452,26 +695,120 @@
         .research-authors {
             font-size: 13px;
             color: var(--text-muted);
-            margin-bottom: 24px;
+            margin-bottom: 28px;
             flex-grow: 1;
+            line-height: 1.6;
         }
 
+        /* PROJECTS — full width row layout */
+        .projects-list {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid var(--border);
+        }
+
+        .project-row {
+            display: grid;
+            grid-template-columns: 80px 1fr auto;
+            align-items: center;
+            gap: 32px;
+            padding: 32px 44px;
+            border-bottom: 1px solid var(--border);
+            transition: background 0.2s;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .project-row:last-child {
+            border-bottom: none;
+        }
+
+        .project-row:hover {
+            background: var(--bg2);
+        }
+
+        .project-index {
+            font-family: 'DM Mono', monospace;
+            font-size: 11px;
+            color: var(--text-muted);
+            opacity: 0.5;
+        }
+
+        .project-info h3 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 20px;
+            margin-bottom: 4px;
+        }
+
+        .project-info p {
+            font-size: 13px;
+            color: var(--text-dim);
+        }
+
+        .project-tag {
+            font-family: 'DM Mono', monospace;
+            font-size: 9px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            padding: 4px 10px;
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            white-space: nowrap;
+        }
+
+        /* FOOTER */
         footer {
-            padding: 60px 40px;
+            padding: 80px 48px;
             border-top: 1px solid var(--border);
-            text-align: center;
+        }
+
+        .footer-inner {
+            max-width: 1140px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
         .footer-name {
             font-family: 'DM Serif Display', serif;
-            font-size: 24px;
-            margin-bottom: 8px;
+            font-size: 20px;
         }
 
+        .footer-label {
+            font-family: 'DM Mono', monospace;
+            font-size: 10px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            margin-top: 4px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .footer-link {
+            font-family: 'DM Mono', monospace;
+            font-size: 10px;
+            color: var(--text-muted);
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            transition: color 0.2s;
+        }
+
+        .footer-link:hover {
+            color: var(--accent);
+        }
+
+        /* REVEAL */
         .reveal {
             opacity: 0;
-            transform: translateY(20px);
-            transition: all 0.8s ease-out;
+            transform: translateY(24px);
+            transition: all 0.7s cubic-bezier(0.22, 1, 0.36, 1);
         }
 
         .reveal.visible {
@@ -479,91 +816,133 @@
             transform: translateY(0);
         }
 
-        /* Responsive */
+        /* RESPONSIVE */
         @media (max-width: 900px) {
             nav {
-                padding: 0 20px;
+                padding: 0 24px;
             }
 
             .nav-links {
                 position: absolute;
-                top: 70px;
+                top: 64px;
                 left: 0;
                 right: 0;
                 background: var(--nav-bg);
-                backdrop-filter: blur(15px);
+                backdrop-filter: blur(16px);
                 flex-direction: column;
                 text-align: center;
                 padding: 40px;
-                border-bottom: 1px solid var(--border);
-                transform: translateY(-150%);
-                transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
-                gap: 24px;
+                border-bottom: none;
+                transform: translateY(-120%);
+                transition: transform 0.4s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+                gap: 28px;
                 z-index: 99;
             }
 
             .nav-links.active {
                 transform: translateY(0);
+                border-bottom: 1px solid var(--border);
             }
 
             .menu-toggle {
                 display: flex;
             }
 
-            .theme-toggle {
-                margin-right: 10px;
+            .nav-actions {
+                position: static;
+                right: auto;
+            }
+
+            .nav-logo {
+                display: none;
             }
 
             .hero {
-                padding: 80px 24px 60px;
+                padding: 100px 24px 60px;
             }
 
             .hero-inner {
                 grid-template-columns: 1fr;
                 text-align: center;
-                gap: 40px;
+                gap: 48px;
             }
 
-            .hero-image-wrap {
-                order: -1;
-            }
-
-            .profile-img {
-                width: 200px;
-                height: 200px;
+            .hero-eyebrow {
+                justify-content: center;
             }
 
             .hero-links {
                 justify-content: center;
             }
 
-            .dual-grid {
-                grid-template-columns: 1fr;
-                gap: 30px;
+            .hero-stats {
+                justify-content: center;
             }
 
-            .section-title {
-                font-size: clamp(36px, 10vw, 56px);
+            .hero-image-wrap {
+                order: -1;
+            }
+
+            .profile-frame,
+            .profile-img {
+                width: 180px;
+                height: 180px;
+            }
+
+            section {
+                padding: 80px 24px;
+            }
+
+            .dual-grid {
+                grid-template-columns: 1fr;
+                gap: 1px;
+            }
+
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .project-row {
+                grid-template-columns: 1fr;
+                gap: 12px;
+                padding: 24px;
+            }
+
+            .project-index {
+                display: none;
+            }
+
+            .footer-inner {
+                flex-direction: column;
+                gap: 24px;
+                text-align: center;
+            }
+
+            .section-header {
+                flex-direction: column;
+                gap: 8px;
             }
         }
     </style>
 </head>
 
 <body>
+    <div class="ambient"></div>
 
     <nav>
         <div class="nav-content">
             <ul class="nav-links" id="nav-links">
                 <li><a href="#about">Duality</a></li>
-                <li><a href="#education">Academia</a></li>
                 <li><a href="#experience">Industry</a></li>
                 <li><a href="#research">Research</a></li>
+                <li><a href="#education">Academia</a></li>
                 <li><a href="#projects">Projects</a></li>
             </ul>
             <div class="nav-actions">
-                <button class="theme-toggle" id="theme-toggle">☀️ LIGHT</button>
-                <button class="menu-toggle" id="mobile-menu">
-                    <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+                <button class="menu-toggle" id="mobile-menu" aria-label="Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </button>
             </div>
         </div>
@@ -572,37 +951,70 @@
     <header class="hero">
         <div class="hero-inner">
             <div class="hero-text">
-            
+                <p class="hero-eyebrow">Researcher & Engineer · Puebla, MX</p>
                 <h1>Research <em>Depth.</em><br>Industry <em>Impact.</em></h1>
                 <p class="hero-desc">
                     I am <strong>Emilio Hernandez Arellano</strong>. I bridge the gap between mathematical foundations
                     and scalable engineering. I build with intent.
                 </p>
                 <div class="hero-links">
-                    <a href="https://linkedin.com/in/emilio-hdez-are98/" target="_blank" class="hero-link"><i
-                            class="devicon-linkedin-plain"></i> LinkedIn</a>
+                    <a href="https://linkedin.com/in/emilio-hdez-are98/" target="_blank" class="hero-link primary">
+                        <i class="devicon-linkedin-plain"></i> LinkedIn
+                    </a>
                     <a href="https://orcid.org/0009-0006-7321-2022" target="_blank" class="hero-link">ORCID</a>
-                    <a href="mailto:emillioha@outlook.com" class="hero-link">✉️ Email</a>
+                    <a href="https://github.com/Emilio98HA" target="_blank" class="hero-link">
+                        <i class="devicon-github-original"></i> GitHub
+                    </a>
+                    <a href="mailto:emillioha@outlook.com" class="hero-link">✉ Email</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Q1 Journals</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label">MSc Thesis</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Years Industry</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100</span>
+                        <span class="stat-label">Team Pipeline</span>
+                    </div>
                 </div>
             </div>
             <div class="hero-image-wrap">
-                <img src="Images/download.jpg" alt="Emilio Hernandez" class="profile-img">
+                <div class="profile-frame">
+                    <img src="Images/download.jpg" alt="Emilio Hernandez" class="profile-img">
+                </div>
             </div>
         </div>
     </header>
 
+    <!-- DUALITY -->
     <section id="about">
         <div class="container reveal">
-            <h2 class="section-title">Duality</h2>
-            <p class="section-subtitle">One Engineer. Two Perspectives.</p>
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <div>
+                    <h2 class="section-title">Duality</h2>
+                    <p class="section-subtitle">One Engineer. Two Perspectives.</p>
+                </div>
+            </div>
+
             <div class="dual-grid">
-                <div class="path-box">
+                <div class="path-box research">
                     <span class="path-tag tag-phd">Academic Track</span>
                     <h3>The Researcher</h3>
-                    <p>I focus on the "Why." I dive into mathematical dichotomy models, evolutionary computation, and
-                        perceptual consistency. I believe every image tells a story.</p>
+                    <p>I focus on the "Why." I develop **analytical-heuristic models** to solve complex vision tasks. My
+                        work centers on the **Mathematical Tone Dichotomy** model, leveraging evolutionary computation
+                        to extract information from suboptimal environments where light is a scarce variable.</p>
                 </div>
-                <div class="path-box">
+                <div class="path-box builder">
                     <span class="path-tag tag-job">Industry Track</span>
                     <h3>The Builder</h3>
                     <p>I focus on the "How." I build Python pipelines that handle real revenue and automation workflows
@@ -624,9 +1036,12 @@
                     <h3>AI & Computer Vision</h3>
                     <div class="skill-tags">
                         <span class="skill-tag"><i class="devicon-opencv-plain colored"></i> OpenCV</span>
-                        <span class="skill-tag"><i class="devicon-tensorflow-original colored"></i> TensorFlow</span>
                         <span class="skill-tag"><i class="devicon-scikitlearn-plain colored"></i> Scikit-Learn</span>
-                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag"><i class="devicon-numpy-plain colored"></i> NumPy</span>
+                        <span class="skill-tag"><i class="devicon-pandas-plain colored"></i> Pandas</span>
+                        <span class="skill-tag">Scikit-Image</span>
+                        <span class="skill-tag"><i class="devicon-tensorflow-original colored"></i> TensorFlow</span>
+                        <span class="skill-tag"><i class="devicon-pytorch-plain colored"></i> PyTorch</span>
                     </div>
                 </div>
                 <div class="skill-group">
@@ -641,180 +1056,234 @@
                 <div class="skill-group">
                     <h3>Design & Tools</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag"><i class="devicon-fusion-plain colored"></i> Fusion 360</span>
                         <span class="skill-tag"><i class="devicon-linux-plain colored"></i> Linux</span>
                         <span class="skill-tag"><i class="devicon-git-plain colored"></i> Git</span>
+                        <span class="skill-tag">Fusion 360</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Human Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">🇲🇽 Spanish · Native</span>
+                        <span class="skill-tag">🇺🇸 English · B2</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- INDUSTRY -->
+    <section id="experience">
+        <div class="container reveal">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <div>
+                    <h2 class="section-title">Industry</h2>
+                    <p class="section-subtitle">Applied Solutions</p>
+                </div>
+            </div>
+            <div class="card-grid">
+                <div class="glass-card">
+                    <p class="timeline-date">2026 — Present</p>
+                    <h3>AI Trainer · Aether</h3>
+                    <h4>Outlier · Remote</h4>
+                    <p>Contributing to the Aether Project improving frontier model quality and performance through
+                        expert feedback and data curation.</p>
+                </div>
+                <div class="glass-card">
+                    <p class="timeline-date">2025 — Present</p>
+                    <h3>Data Analytics & Automation Consultant</h3>
+                    <h4>Swiss Just · Remote · Freelance</h4>
+                    <ul>
+                        <li>Implemented a <strong>ceiling greedy algorithm</strong> — a deliberate design choice over
+                            dynamic programming — to generate minimum-cost product combinations that guarantee
+                            consultants meet their sales threshold, including promotional gift resolution.</li>
+                        <li>Built an end-to-end pipeline: parsed product catalog from PDF into SQLite and automated
+                            personalized WhatsApp message delivery per consultant.</li>
+                        <li>Designed a Python analytics pipeline to monitor billing performance of a <strong>100-member
+                                commercial team</strong>.</li>
+                        <li>Automated messaging workflows contributing to the <strong>retention of 25
+                                consultants</strong> (~25% of team).</li>
+                        <li>Increased website engagement by <strong>98% in views</strong> and 77% in unique visitors
+                            through AI-assisted content.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research">
+        <div class="container reveal">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <div>
+                    <h2 class="section-title">Research</h2>
+                    <p class="section-subtitle">Q1 Contributions</p>
+                </div>
+            </div>
+            <div class="card-grid">
+                <div class="glass-card highlight-card">
+                    <span class="research-meta">Q1 Journal · 2025</span>
+                    <h3>Analytical-heuristic modeling and optimization for low-light image enhancement</h3>
+                    <span class="research-journal">Applied Soft Computing (Elsevier)</span>
+                    <p class="research-authors">Axel Martinez, <strong>Emilio Hernandez</strong>, Matthieu Olague,
+                        Gustavo Olague</p>
+                    <p
+                        style="font-size: 14px; color: var(--text-dim); margin-top: -15px; margin-bottom: 24px; line-height: 1.6;">
+                        Theoretical development and implementation of the <strong>Dichotomy Tuna</strong> algorithm.
+                        Leveraging metaheuristics for high-dynamic-range visual recovery.
+                    </p>
+                    <a href="https://doi.org/10.1016/j.asoc.2025.113546" target="_blank" class="hero-link"
+                        style="margin-top: auto; align-self: flex-start;">Read Paper →</a>
+                </div>
+                <div class="glass-card">
+                    <span class="research-meta">Q1 Journal · 2025</span>
+                    <h3>Modeling Image Tone Dichotomy with the Power Function</h3>
+                    <span class="research-journal">Applied Mathematical Modelling (Elsevier)</span>
+                    <p class="research-authors">Axel Martinez, Gustavo Olague, <strong>Emilio Hernandez</strong></p>
+                    <p
+                        style="font-size: 13px; color: var(--text-muted); margin-top: -20px; margin-bottom: 24px; line-height: 1.6;">
+                        Supported the foundational dichotomy model development through rigorous evaluation and
+                        experimental validation.
+                    </p>
+                    <a href="https://doi.org/10.1016/j.apm.2025.116538" target="_blank" class="hero-link"
+                        style="margin-top: auto; align-self: flex-start;">Read Paper →</a>
+                </div>
+                <div class="glass-card">
+                    <span class="research-meta">Dataset · 2025</span>
+                    <h3>Adversarial attacks dataset for low light image enhancement</h3>
+                    <span class="research-journal">Data in Brief (Elsevier)</span>
+                    <p class="research-authors">Axel Martinez, Matthieu Olague, Gustavo Olague, <strong>Emilio
+                            Hernandez</strong>, Julio Cesar Lopez-Arredondo</p>
+                    <p
+                        style="font-size: 13px; color: var(--text-muted); margin-top: -20px; margin-bottom: 24px; line-height: 1.6;">
+                        Orchestrated the adversarial dataset construction and validation protocols for low-light vision
+                        benchmarks.
+                    </p>
+                    <a href="https://www.sciencedirect.com/science/article/pii/S235234092500410X" target="_blank"
+                        class="hero-link" style="margin-top: auto; align-self: flex-start;">Dataset →</a>
+                </div>
+                <div class="glass-card">
+                    <span class="research-meta">Service · 2024 — 2025</span>
+                    <h3>Peer Reviewer</h3>
+                    <h4>Engineering Applications of AI · Elsevier</h4>
+                    <p style="margin-bottom: 24px;">Ensuring methodological clarity and scientific rigor for manuscripts
+                        in the field of Artificial Intelligence.</p>
+                    <a href="https://orcid.org/0009-0006-7321-2022" target="_blank" class="hero-link"
+                        style="margin-top: auto; align-self: flex-start;">ORCID Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACADEMIA -->
     <section id="education">
         <div class="container reveal">
-            <h2 class="section-title">Academia</h2>
-            <p class="section-subtitle">Research Foundations</p>
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <div>
+                    <h2 class="section-title">Academia</h2>
+                    <p class="section-subtitle">Research Foundations</p>
+                </div>
+            </div>
             <div class="card-grid">
                 <div class="glass-card">
                     <img src="Images/cicese.jpg" alt="CICESE" class="edu-logo">
                     <p class="timeline-date">MSc · 2022 — 2024</p>
                     <h3>Computer Science</h3>
-                    <p class="hero-desc" style="font-size: 14px; margin-bottom: 20px;">Master's thesis derived from a
-                        patent, leading to two Q1 publications in image enhancement.</p>
-                    <div class="hero-links">
+                    <h4>CICESE · Baja California, México</h4>
+                    <p style="margin-bottom: 24px;">Thesis produced the <strong>Dichotomy Tuna</strong> algorithm — a
+                        novel variant
+                        of the mathematical dichotomy model — leading to two Q1 publications in image enhancement.
+                        Specialized in evolutionary computation and metaheuristic optimization for real-world vision
+                        applications.</p>
+                    <div class="hero-links" style="margin-top: auto;">
                         <a href="https://cicese.repositorioinstitucional.mx/jspui/handle/1007/4197" target="_blank"
-                            class="hero-link">Thesis →</a>
+                            class="hero-link">Thesis</a>
                         <a href="https://posgrados.cicese.mx/posgrado/maestria/cienciasdelacomputacion/4"
-                            target="_blank" class="hero-link">Curriculum</a>
+                            target="_blank" class="hero-link">Program</a>
                     </div>
                 </div>
                 <div class="glass-card">
                     <img src="Images/udlap.jpeg" alt="UDLAP" class="edu-logo">
                     <p class="timeline-date">BSc · 2017 — 2022</p>
                     <h3>Biomedical Engineering</h3>
-                    <p class="hero-desc" style="font-size: 14px; margin-bottom: 20px;">Studying the intersection of
-                        signal processing and human physiology.</p>
-                    <div class="hero-links">
+                    <h4>UDLAP · Puebla, México</h4>
+                    <p style="margin-bottom: 24px;">Built foundations in signal processing, human physiology, and
+                        medical instrumentation — the bridge between biology and computation that shapes my research
+                        lens today.</p>
+                    <div class="hero-links" style="margin-top: auto;">
                         <a href="https://www.udlap.mx/ofertaacademica2017/Default.aspx?cveCarrera=LBM&version=65"
-                            target="_blank" class="hero-link">Curriculum</a>
+                            target="_blank" class="hero-link">Program</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="experience">
-        <div class="container reveal">
-            <h2 class="section-title">Industry</h2>
-            <p class="section-subtitle">Applied Solutions</p>
-            <div class="card-grid">
-                <div class="glass-card">
-                    <div class="timeline-content">
-                        <p class="timeline-date">2026 — PRESENT</p>
-                        <h3>AI Trainer · Aether</h3>
-                        <h4>Outlier · Remote</h4>
-                        <p style="font-size: 15px;">Contributing to the Aether Project improving frontier model quality
-                            and performance through expert feedback and data curation.</p>
-                    </div>
-                </div>
-                <div class="glass-card">
-                    <div class="timeline-content">
-                        <p class="timeline-date">2025 — PRESENT</p>
-                        <h3>Data Analytics & Automation Consultant</h3>
-                        <h4>Swiss Just · Remote · Freelance</h4>
-                        <ul>
-                            <li>Designed a Python-based analytics pipeline to monitor billing performance of a
-                                <strong>100-member commercial team</strong>.</li>
-                            <li>Implemented a greedy heuristic in Python to generate product combinations (≥3,500 MXN /
-                                3 months) while optimizing consultant profit margins.</li>
-                            <li>Automated template-based messaging workflows, contributing to the <strong>retention of
-                                    25 consultants</strong> (~25% of team).</li>
-                            <li>Increased website engagement by <strong>98% in views</strong> and 77% in unique visitors
-                                through AI-assisted content.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="research">
-        <div class="container reveal">
-            <h2 class="section-title">Research</h2>
-            <p class="section-subtitle">Q1 Contributions</p>
-            <div class="card-grid">
-                <div class="glass-card research-card">
-                    <span class="research-meta">Q1 Journal · 2025</span>
-                    <h3>Modeling Image Tone Dichotomy with the Power Function</h3>
-                    <p class="research-journal">Applied Mathematical Modelling</p>
-                    <p class="research-authors">Axel Martinez, Gustavo Olague, <strong>Emilio Hernandez</strong></p>
-                    <a href="https://doi.org/10.1016/j.apm.2025.116538" target="_blank" class="hero-link">Read Paper
-                        →</a>
-                </div>
-                <div class="glass-card research-card">
-                    <span class="research-meta">Q1 Journal · 2025</span>
-                    <h3>Analytical-heuristic modeling and optimization for low-light image enhancement</h3>
-                    <p class="research-journal">Applied Soft Computing</p>
-                    <p class="research-authors">Axel Martinez, <strong>Emilio Hernandez</strong>, Matthieu Olague,
-                        Gustavo Olague</p>
-                    <a href="https://doi.org/10.1016/j.asoc.2025.113546" target="_blank" class="hero-link">Read Paper
-                        →</a>
-                </div>
-                <div class="glass-card research-card">
-                    <span class="research-meta">Dataset · 2025</span>
-                    <h3>Adversarial attacks dataset for low light image enhancement</h3>
-                    <p class="research-journal">Data in Brief (Elsevier)</p>
-                    <p class="research-authors">Axel Martinez, Matthieu Olague, Gustavo Olague, <strong>Emilio Hernandez</strong>,
-                        Julio Cesar Lopez-Arredondo</p>
-                    <a href="https://www.sciencedirect.com/science/article/pii/S235234092500410X" target="_blank"
-                        class="hero-link">Dataset →</a>
-                </div>
-            </div>
-
-            <p class="section-subtitle" style="margin-top: 60px;">Scientific Service</p>
-            <div class="card-grid">
-                <div class="glass-card research-card">
-                    <span class="research-meta">Reviewing · 2024 — 2025</span>
-                    <h3>Peer Reviewer</h3>
-                    <p class="research-journal">Engineering Applications of AI (Elsevier)</p>
-                    <p class="research-authors">Ensuring methodological clarity and scientific rigor for manuscripts in
-                        the field of Artificial Intelligence.</p>
-                    <a href="https://orcid.org/0009-0006-7321-2022" target="_blank" class="hero-link">ORCID Profile</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <!-- PROJECTS -->
     <section id="projects">
         <div class="container reveal">
-            <h2 class="section-title">Projects</h2>
-            <p class="section-subtitle">Explorations</p>
-            <div class="card-grid">
-                <div class="glass-card">
-                    <p class="research-meta">Computer Vision</p>
-                    <h3>🤟 MSL Recognition</h3>
-                    <p class="hero-desc" style="font-size: 14px;">Accessibility through Computer Vision. Hand gesture
-                        recognition for Mexican Sign Language.</p>
-                    <a href="https://github.com/Emilio98HA/CDSI_2023/blob/main/LSM-Recognition/Tarea_2.ipynb"
-                        target="_blank" class="hero-link">Notebook</a>
+            <div class="section-header">
+                <span class="section-number">05</span>
+                <div>
+                    <h2 class="section-title">Projects</h2>
+                    <p class="section-subtitle">Explorations</p>
                 </div>
-                <div class="glass-card">
-                    <p class="research-meta">Bio Design</p>
-                    <img src="Images/socket_pierna.jpeg" alt="3D Socket" class="edu-logo"
-                        style="height: 120px; width: 100%; object-fit: cover; border-radius: 2px; filter: none;">
-                    <h3>🦿 3D Socket Design</h3>
-                    <p class="hero-desc" style="font-size: 14px;">Parametric prosthetic design in Fusion 360.</p>
+            </div>
+            <div class="projects-list">
+                <a href="https://emilio98ha.github.io/Personal_landing_Emilio/" target="_blank" class="project-row">
+                    <span class="project-index">01</span>
+                    <div class="project-info">
+                        <h3>🌐 This Landing Page</h3>
+                        <p>Vibe-coded with Gemini CLI + Claude — a multi-agent workflow to build and ship a personal
+                            site without writing boilerplate.</p>
+                    </div>
+                    <span class="project-tag">Vibe Coding</span>
+                </a>
+                <div class="project-row">
+                    <span class="project-index">02</span>
+                    <div class="project-info">
+                        <h3>🦿 3D Prosthetic Socket Design</h3>
+                        <p>Parametric prosthetic design in Fusion 360 — bridging biomedical engineering and CAD
+                            manufacturing.</p>
+                    </div>
+                    <span class="project-tag">Bio Design</span>
                 </div>
-                <div class="glass-card">
-                    <p class="research-meta">AI Foundations</p>
-                    <h3>🧠 Single Neuron Classification</h3>
-                    <p class="hero-desc" style="font-size: 14px;">Understanding neural fundamentals through minimalist
-                        implementation.</p>
-                    <a href="https://colab.research.google.com/drive/1SB_jn0ErGu9PBwOlwmdIJwtZMI38kfzo?usp=sharing"
-                        target="_blank" class="hero-link">Colab</a>
-                </div>
+                <a href="https://github.com/Emilio98HA/CDSI_2023/blob/main/LSM-Recognition/Tarea_2.ipynb"
+                    target="_blank" class="project-row">
+                    <span class="project-index">03</span>
+                    <div class="project-info">
+                        <h3>🤟 MSL Recognition</h3>
+                        <p>Accessibility through Computer Vision — hand gesture recognition for Mexican Sign Language.
+                        </p>
+                    </div>
+                    <span class="project-tag">Computer Vision</span>
+                </a>
+
             </div>
         </div>
     </section>
 
     <footer>
-        <div class="container">
-            <p class="footer-name">Emilio Hernandez Arellano</p>
-            <p class="section-label">Researcher & Entrepreneur</p>
+        <div class="footer-inner">
+            <div>
+                <p class="footer-name">Emilio Hernandez Arellano</p>
+                <p class="footer-label">Researcher · Engineer · Builder</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://linkedin.com/in/emilio-hdez-are98/" target="_blank" class="footer-link">LinkedIn</a>
+                <a href="https://orcid.org/0009-0006-7321-2022" target="_blank" class="footer-link">ORCID</a>
+                <a href="https://github.com/Emilio98HA" target="_blank" class="footer-link">GitHub</a>
+                <a href="mailto:emillioha@outlook.com" class="footer-link">Email</a>
+            </div>
         </div>
     </footer>
 
     <script>
-        const toggleBtn = document.getElementById('theme-toggle');
-        const html = document.documentElement;
         const navLinks = document.getElementById('nav-links');
         const menuBtn = document.getElementById('mobile-menu');
-
-        toggleBtn.addEventListener('click', () => {
-            const theme = html.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
-            html.setAttribute('data-theme', theme);
-            toggleBtn.textContent = theme === 'light' ? '☀️ LIGHT' : '🌙 DARK';
-        });
 
         menuBtn.addEventListener('click', () => {
             navLinks.classList.toggle('active');
@@ -825,8 +1294,11 @@
         });
 
         const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
         }, { threshold: 0.1 });
+
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
     </script>
 </body>
