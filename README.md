@@ -17,7 +17,7 @@ Check it out here: [emilio98ha.github.io/Personal_landing_Emilio/](https://emili
 ## 👨‍💻 Key Features
 - **Dual Identity Toggle:** Tailored narratives for research vs. engineering.
 - **Scroll-Reveal Animations:** Smooth storytelling as you navigate.
-- **Dark/Light Mode:** Manual toggle with persistent preference.
+- **Dark/Light Mode:** Manual toggle for on-the-fly aesthetic adjustment.
 - **Responsive Design:** Optimized for all screen sizes.
 
 ## 🎨 Meta: The Build Process
