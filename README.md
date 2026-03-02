@@ -1,6 +1,6 @@
 # Personal Landing Page — Emilio Hernandez
 
-Academic depth meets industry impact. This repository contains the source code for my professional landing page, optimized for both PhD applications and Industry R&D roles.
+Academic depth meets industry impact. This repository contains the source code for my professional landing page 😄
 
 ## 🚀 Live Site
 Check it out here: [emilio98ha.github.io/Personal_landing_Emilio/](https://emilio98ha.github.io/Personal_landing_Emilio/)
