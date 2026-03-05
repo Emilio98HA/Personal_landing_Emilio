@@ -1,0 +1,2251 @@
+Vicerrectorado de
+Investigación y Transferencia
+
+ANEXO
+
+Relación de proyectos de investigación que ofertan un
+contrato predoctoral en la Universidad de Granada
+
+En las siguientes páginas podrá encontrar una descripción de los proyectos de investigación
+preseleccionados con propuesta de financiación para contratos predoctorales de la Universidad de
+Granada que figuran en el listado que el 28 de julio de 2025 se publicó en la página web de la
+Agencia Estatal de Investigación al amparo de la Orden de 9 de diciembre de 2024 que aprobó la
+convocatoria de tramitación anticipada para el año 2024 del procedimiento de concesión de ayudas
+a «Proyectos de Generación de Conocimiento» y a actuaciones para la formación de personal
+investigador predoctoral asociadas a dichos proyectos, en el marco del Plan Estatal de Investigación
+Científica, Técnica y de Innovación 2024-2027.
+En el listado, ordenado por referencia de proyecto, se indican los datos principales como título,
+dirección, centro de trabajo del contratado predoctoral, objetivo que persigue la investigación y un
+correo electrónico por si desea aclarar algún aspecto relativo a los méritos curriculares valorables.
+Dentro de los apartados de grados y másteres que se indican, comentar que no se trata de una lista
+exhaustiva, pudiendo también valorarse titulaciones universitarias afines a las indicadas bajo el
+criterio de la comisión de evaluación.
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+
+PID2024-155143NB-I00
+
+Título
+
+Laboratorio sobre Inferencias de Estados Mentales y Moralidad
+
+Dirección
+
+Ivar A. Rodriguez Hannikainen
+
+Centro
+
+Departamento de Filosofía I
+El proyecto busca comprender cómo las personas infieren los estados mentales de los
+
+Objetivo
+
+demás y cómo esas inferencias guían nuestro razonamiento moral, tanto al evaluar
+acciones pasadas como al considerar posibles cursos de acción futuros.
+
+Consultas curriculares
+
+ivar@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+(1) Realización de una tesis doctoral en el marco del proyecto.
+
+contrato
+
+(2) Desarrollo de estudios empíricos sobre mentalización y juicio moral.
+(3) Apoyo logístico en la ejecución del proyecto (organización y difusión de resultados).
+
+Grados / Licenciaturas
+
+Grado en Filosofía / Grado en Psicología / afines.
+
+y afines
+Másteres y afines
+
+Máster en Filosofía / Máster en Psicología / afines.
+
+Cursos
+
+- Estadística frecuentista y/o bayesiana
+- Programación en R, Python, Matlab o similares
+
+Idiomas
+
+Nivel alto de inglés.
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Se valorará la experiencia previa realizando investigación teórica o empírica sobre
+
+profesional
+
+temáticas afines (psicología moral, teoría de la mente), la experiencia realizando análisis
+estadístico (en R o Python) y modelización cognitiva.
+
+Otros
+
+Familiaridad con paradigmas teóricos en filosofía y psicología moral, razonamiento
+bayesiano, teoría de la mente.
+Conocimientos de diseño web (HTML, JS, etc.).
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-155167OA-I00
+Transformación de Tecnologías Inalámbricas y Radar mediante Metadispositivos
+controlados por variación temporal
+
+Dirección
+
+Carlos Molero Jiménez
+
+Centro
+
+CITIC-UGR, con previsión de traslado del proyecto a Universidad de Sevilla
+El objetivo es el análisis, diseño y medida de dispositivos con modulación
+
+Objetivo
+
+espaciotemporal, que permitirán cambios en las comunicaciones de última generación, así
+como en otras aplicaciones, como radar, al romper límites de las estructuras pasivas.
+
+Consultas curriculares
+
+cmoleroj@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Se llevarán a cabo tareas de análisis teórico, desarrollo de métodos numéricos, simulación
+
+contrato
+
+electromagnética y circuital, fabricación y medida de estructuras con modulación
+espaciotemporal aplicadas al proyecto.
+
+Grados / Licenciaturas
+
+Grado en Ingeniería de Telecomunicaciones, Grado en Física, Doble Grado en Física y
+
+y afines
+
+Matemáticas
+
+Másteres y afines
+
+Máster Ingeniería Telecomunicación, Máster Tecnologías Mundo Conectado, Másters
+RF/comunicaciones
+
+Cursos
+
+Valorables los cursos de EurAAP, ESoA, EUMW, Metamaterials.
+
+Idiomas
+
+Nivel alto o nativo de español. Nivel alto de inglés.
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Valorable el trabajo previo en laboratorios de investigación, contratos de investigación y
+
+profesional
+
+experiencia en redacción de artículos científicos. Valorable el trabajo en contratos de
+transferencia tecnológica de las TIC y trabajo en empresa.
+
+Otros
+
+Valorable el conocimiento de programación científica en MATLAB/Python, simuladores
+circuitales (AWR, ADS, SPICE), y simuladores electromagnéticos (CST, HFSS,
+COMSOL).
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+
+PID2024-155248OB-I00
+Promoción de la actividad fúngica mediante microaireación en un sistema de
+
+Título
+
+biometanización bifásico y compostaje para eliminar
+contaminantes emergentes en lodos de depuradora
+
+Dirección
+
+Elizabet Aranda Ballesteros
+
+Centro
+
+Instituto del Agua. Universidad de Granada
+El objetivo general se centra en el tratamiento de lodos de depuradora, promoviendo la
+
+Objetivo
+
+actividad fúngica para la eliminación de compuestos farmacéuticos activos y
+microplásticos en un sistema de digestión anaerobia y compostaje.
+
+Consultas curriculares
+
+antonio.serrano@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Montaje y operación de biorreactores. Escalado. Análisis fisicoquímicos y contaminantes
+
+contrato
+
+emergentes. Análisis microbiológicos (hongos). Análisis de datos y tratamiento
+estadístico. Comunicaciones científicas (artículos y congresos).
+
+Grados / Licenciaturas
+
+Grado en Biotecnología; Grado en Biología
+
+y afines
+Másteres y afines
+
+Máster en Investigación y Avances en Microbiología; Máster en Biotecnología.
+
+Cursos
+Idiomas
+
+Inglés Alto (C1 o equivalente)
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Experiencia de trabajo experimental en laboratorio de investigación en el área de
+
+profesional
+
+microbiología (hongos). Experiencia investigadora relacionada con la temática del
+proyecto (trabajos de investigación, comunicaciones a congresos).
+
+Otros
+
+TFM en temas afines al proyecto, Carnet de conducir, Disponibilidad para llevar a cabo
+estancias internacionales.
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-156031NB-I00
+Nuevos retos en Geometría Diferencial: flujos, Geometría de Lorentz-Finsler y
+aplicaciones
+
+Dirección
+
+Francisco Martin Serrano
+
+Centro
+
+Facultad de Ciencias
+Estudiar problemas actuales en geometría diferencial: flujo de curvatura media, geometría
+
+Objetivo
+
+Lorentz-Finsler y subvariedades en espacios lorentzianos, combinando análisis geométrico
+y física matemática para generar nuevos modelos y resultados.
+
+Consultas curriculares
+
+fmartin@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Combinar técnicas analíticas, geométricas y variacionales, para resolver cuestiones
+
+contrato
+
+abiertas de geometría diferencial que involucran aspectos de relatividad y flujos
+geométricos.
+
+Grados / Licenciaturas
+
+Doble grado en Física y Matemáticas/ Grado en Matemáticas
+
+y afines
+Másteres y afines
+
+Máster en Matemáticas / Máster en Física y Matemáticas
+
+Cursos
+
+Cursos de formación en geometría diferencial y análisis geométrico.
+
+Idiomas
+
+Inglés nivel medio
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Contratos de investigación relacionados con la temática del proyecto. Prácticas extra-
+
+profesional
+
+curriculares en temáticas afines.
+
+Otros
+
+Se valorarán las posibles publicaciones en temáticas afines al proyecto.
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-156297OB-I00
+Diagnóstico y seguimiento de enfermedades autoinmunes mediante análisis de firmas
+transcripcionales de célula única: Nuevos métodos bioinformáticos y modelos predictivos
+
+Dirección
+
+Pedro Carmona Saez
+
+Centro
+
+Centro Genómica e Investigación Oncológica (GENYO) y Dpto. de Estadística e I.O.
+El proyecto tiene como objetivo en desarrollo de nuevas metodologías para análisis de
+
+Objetivo
+
+datos de scRNA-seq para caracterizar patrones moleculares asociados a enfermedades
+complejas
+
+Consultas curriculares
+
+pcarmona@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Implementación de técnicas para procesado y análisis de datos de scRNAseq. Desarrollo
+
+contrato
+
+de nuevas técnicas para problemas de clasificación en datos de scRNAseq. Presentación de
+resultados en congresos, seminarios y publicaciones científicas.
+
+Grados / Licenciaturas
+
+Matemáticas/Estadística/Informática
+
+y afines
+Másteres y afines
+
+Máster en Física y Matemáticas/Máster en Estadística/Máster en ciencia de datos
+
+Cursos
+
+Cursos de Programación
+
+Idiomas
+
+Nivel B2 de inglés acreditado
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+profesional
+Otros
+
+Experiencia previa y demostrable en análisis de datos genómicos. Experiencia previa
+trabajando en grupos de investigación
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+
+PID2024-156434NB-I00
+
+Título
+
+Nuevos Desafíos en Inteligencia Artificial Explicable para Toma de Decisiones Confiables
+
+Dirección
+
+Oscar Cordón García
+
+Centro
+
+Instituto Andaluz Interuniversitario en Ciencia de Datos e Inteligencia Computacional
+(DaSCI)
+ConfIA2 avanzará en IA Explicable (XAI) proponiendo nuevos modelos de XAI, tipos de
+
+Objetivo
+
+explicaciones y métricas de evaluación, y obteniendo nuevas soluciones basadas en XAI
+para identificación forense y modelado del comportamiento humano.
+
+Consultas curriculares
+
+sdamas@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Diseño de nuevas metodologías de IA Explicable para: 1) estimación de edad multimodal
+
+contrato
+
+y multifactorial; 2) identificación humana robusta, segura, transparente y confiable; 3) uso
+de IA generativa para comparación facial y superposición craneofacial.
+
+Grados / Licenciaturas
+
+Grado en Ingeniería Informática / Grado en Matemáticas / Grado en Ingeniería de
+
+y afines
+
+Telecomunicaciones
+
+Másteres y afines
+
+Máster en Ciencia de Datos e Ingeniería de Computadores
+
+Cursos
+Idiomas
+
+Recomendable Inglés nivel medio.
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Se valorará experiencia previa en empresa en el uso de técnicas de Inteligencia Artificial
+
+profesional
+
+(IA Explicable, Deep learning, …), preferentemente en aplicaciones de Antropología
+Forense e Identificación Humana.
+
+Otros
+
+Se valorará experiencia previa y/o publicaciones científicas en el uso de técnicas de
+Inteligencia Artificial (IA Explicable, Deep learning, …), preferentemente en aplicaciones
+de Antropología Forense e Identificación Humana.
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-157106NB-I00
+Conocimiento profesional de futuros maestros de educación primaria para abordar el
+sentido algebraico
+
+Dirección
+
+María Consuelo Cañadas Santiago
+
+Centro
+
+Facultad de Ciencias de la Educación
+
+Objetivo
+Consultas curriculares
+
+Analizar y describir el conocimiento matemático y didáctico de los futuros docentes en
+relación al sentido algebraico.
+mconsu@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Se incorporará a las actividades de investigación previstas en el proyecto: revisión de
+
+contrato
+
+literatura, diseño e implementación de sesiones y entrevistas sobre sentido algebraico con
+los futuros docentes de educación primaria, y análisis de datos.
+
+Grados / Licenciaturas
+
+Matemáticas
+
+y afines
+Másteres y afines
+
+Máster en Didáctica de la Matemática / Máster en Formación del Profesorado-especialidad
+Matemáticas
+
+Cursos
+
+Se valorará positivamente la participación en cursos sobre metodología de investigación en
+Didáctica de la Matemática y la participación en cursos relacionados con el pensamiento
+algebraico en educación primaria.
+
+Idiomas
+
+Inglés B2-C1
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Ninguna requerida, pero se valorará positivamente la experiencia previa en investigación y
+
+profesional
+
+la docencia dirigida a profesorado.
+
+Otros
+
+Capacidad para el trabajo en equipo. Autonomía para la redacción de informes de
+investigación. Habilidades de comunicación/discusión científica. Interés por la
+investigación en Didáctica de la Matemática.
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-157275NB-I00
+Investigación de los procesos que ocurren en los conductos volcánicos mediante
+observaciones con arrays sismo-acústicos y simulaciones numéricas
+
+Dirección
+
+Francisco J. Almendros Gonzalez
+
+Centro
+
+Facultad de Ciencias / Instituto Andaluz de Geofísica
+Estudiar los conductos volcánicos superficiales en volcanes activos mediante
+
+Objetivo
+
+observaciones con arrays sismo-acústicos y simulaciones numéricas para determinar los
+parámetros críticos que disparan las erupciones volcánicas
+
+Consultas curriculares
+
+vikingo@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Estudio de bibliografía; participación en campañas de campo en volcanes activos; análisis
+
+contrato
+
+de datos sísmicos y acústicos; simulaciones numéricas de propagación de ondas; modelado
+de conductos volcánicos; redacción y difusión de resultados.
+
+Grados / Licenciaturas
+
+Geofísica / Física / Geología / Física y Matemáticas / Ingeniería Geológica / o Grados
+
+y afines
+
+similares
+
+Másteres y afines
+
+Geofísica / Física / o Másteres similares
+
+Cursos
+
+Cursos de programación; cursos de redacción de textos científicos; cursos de idiomas. Se
+valorarán otros cursos de formación relacionados con la temática del proyecto: Geofísica,
+Sismología, Volcanología, etc.
+
+Idiomas
+
+Inglés nivel medio/alto
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Se valorará experiencia profesional en el campo de la Sismología o en aplicaciones
+
+profesional
+
+computacionales relacionadas
+
+Otros
+
+Experiencia previa en investigación; realización de TFG o TFM relacionado con la
+temática del proyecto; conocimientos de programación; experiencia previa en trabajos de
+campo; motivación e interés por el trabajo; disponibilidad para viajar.
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-157816OB-C21
+Hacia una industria agroalimentaria sostenible mediante el tratamiento integrado de
+residuos
+
+Dirección
+
+Francisco Jose Maldonado Hodar
+
+Centro
+
+Facultad de Ciencias
+Nanomateriales adsorbentes, catalíticos y fototérmicos basados en semiconductores o
+
+Objetivo
+
+metales altamente dispersos con propiedades ajustables para la optimización de procesos
+ambientales (degradación de contaminantes) o energéticos (ORR, metanacion, H2)
+
+Consultas curriculares
+
+fjmaldon@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Análisis bibliográfico. Síntesis y caracterización de Nanomateriales. Ensayos catalíticos.
+
+contrato
+
+Análisis y discusión de resultados. Asistencia a Cursos de formación específica,
+seminarios y Congresos. Actividades de divulgación.
+
+Grados / Licenciaturas
+
+Grado en Química / Ingeniería Química / Farmacia
+
+y afines
+Másteres y afines
+
+Química / Ingeniería Química
+
+Cursos
+
+Cursos de formación en el ámbito de los materiales, su caracterización y aplicaciones en
+catálisis
+
+Idiomas
+
+Inglés hablado y escrito (nivel alto), se valorarán otros idiomas, francés,
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Se valorarán específicamente contratos de investigación con actividades en síntesis,
+
+profesional
+
+caracterización y aplicaciones catalíticas de nanomateriales, evaluables a través de
+publicaciones, comunicaciones a congresos y otras actividades de difusión.
+
+Otros
+
+El candidato se integrará en el Grupo de Investigación (NanoTech) por lo que se evaluará
+en entrevista las aptitudes personales (carácter, interés, dedicación, etc) que faciliten un
+ambiente de trabajo adecuado para el desarrollo del Proyecto.
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-158198NB-C22
+Desarrollo económico, comercio y medio ambiente a ambos lados del Atlántico (18202020)
+
+Dirección
+
+Juan Infante Amate
+
+Centro
+
+Ciencias Económicas y Empresariales
+
+Objetivo
+Consultas curriculares
+
+Estudio de las relaciones entre el desarrollo económico y el cambio ambiental en el largo
+plazo
+jinfama@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Extracción y análisis de datos a partir de fuentes históricas internacionales y de diferentes
+
+contrato
+
+países del mundo
+Participación en estudio y difusión de resultados de investigación a partir de las series
+históricas creadas en el proyecto
+
+Grados / Licenciaturas
+
+Historia, Humanidades, Economía
+
+y afines
+Másteres y afines
+
+Historia Contemporánea, Historia, Economía
+
+Cursos
+
+Cursos de especialización en programas de procesamiento y análisis de datos
+
+Idiomas
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Se valorará experiencia previa en proyectos de investigación de historia cuantitativa
+
+profesional
+Otros
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-159076OA-I00
+Descifrando el Envejecimiento Vascular: impacto de las células T senescentes en el
+deterioro arterial y sus implicaciones terapéuticas
+
+Dirección
+
+Marta Toral Jimémez
+
+Centro
+
+Facultad de Farmacia
+Determinar cómo la desregulación del sistema inmunitario contribuye al desarrollo de
+
+Objetivo
+
+aortopatías asociadas al envejecimiento e identificar potenciales dianas terapéuticas para
+futuras intervenciones farmacológicas
+
+Consultas curriculares
+
+martatoral@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+• Realización de medidas de la presión arterial
+
+contrato
+
+• Realización de medidas de reactividad vascular
+• Realización de RT-qPCR, Western blot, scRNA-seq, metagenómica
+• Inmunohistoquímica, microscopía confocal
+• Citometría de flujo
+
+Grados / Licenciaturas
+
+Grado en Farmacia
+
+y afines
+Másteres y afines
+
+Máster Universitario en Investigación, Desarrollo, Control e Innovación de Medicamentos
+
+Cursos
+Idiomas
+
+Inglés medio (B1)
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+•Experiencia en investigación en laboratorio de farmacología cardiovascular
+
+profesional
+
+• Conocimientos de sistema inmune y microbiota.
+
+Otros
+
+• Participación en congresos y reuniones científicas.
+• Reconocimientos académicos
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+
+PID2024-159801NB-I00
+
+Título
+
+El comercio de la seda nazarí: Historia, consumo y mercados (siglos XIII-XVI)
+
+Dirección
+
+Adela Pilar Fábregas García
+
+Centro
+
+Facultad de Filosofía y Letras. UNiversidad de Granada
+El objetivo principal de este proyecto es abordar por primera vez el estudio de la historia
+
+Objetivo
+
+de la seda nazarí a partir de su tratamiento como objeto de consumo y comercio y
+recurriendo a fuentes documentales y arqueológicas.
+
+Consultas curriculares
+
+fabregas@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+-Búsqueda y tratamiento de información C10 material y documental en archivos
+
+contrato
+
+nacionales e internacionales relacionados con la exportación de seda, en madeja y tejida
+-Elaboración de tesis doctoral
+-Colaboración en tareas vinculadas al desarrollo del proye
+
+Grados / Licenciaturas
+
+Grado en Historia
+
+y afines
+Másteres y afines
+
+Master en Estudios Semíticos; Master en Arqueología; Master en Historia
+
+Cursos
+
+Cursos y becas de iniciación a la investigación
+
+Idiomas
+
+Se valorará nivel alto de inglés, francés e italiano
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Experiencia en acceso a documentación de archivo.
+
+profesional
+
+Experiencia arqueológica
+
+Otros
+
+Experiencia en análisis de historia económica de al-Andalus. Actividades de difusión de
+investigación
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-160099NA-I00
+El vínculo entre las oscilaciones alfa neuronales y las alteraciones estructurales del tálamo
+en los trastornos de la conciencia
+
+Dirección
+
+Rodika Elisabeth Sokoliuk
+
+Centro
+
+Facultad de Psicología, Centro de Investigación Mente, Cerebro y Comportamiento
+Este proyecto se sitúa entre la investigación básica y aplicada en trastornos de la
+
+Objetivo
+
+consciencia. Estudia cómo las oscilaciones alfa del cerebro, medidas por EEG, pueden
+mejorar el diagnóstico y pronóstico de pacientes no responsivos.
+
+Consultas curriculares
+
+sokoliuk@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+El doctorando programará experimentos psicofísicos, analizará datos de RM estructural y
+
+contrato
+
+EEG, aplicará modelos computacionales, trabajará con pacientes con TCE, y participará en
+colaboraciones y congresos nacionales e internacionales.
+
+Grados / Licenciaturas
+
+psicología, neurociencia cognitiva, ciencia de datos, informática, biología
+
+y afines
+Másteres y afines
+
+Neurociencia
+
+cognitiva,
+
+Neurotecnología,
+
+Neurociencias
+
+Básicas
+
+y
+
+Aplicadas,
+
+Neurociencia Integrativa
+Cursos
+
+Programación como Python o Matlab, recogida y análisis de datos de EEG y de RM/RMf
+
+Idiomas
+
+Nivel C1 o C2 en inglés
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+El/la candidato/a deberá contar con experiencia previa en entornos de investigación. Se
+
+profesional
+
+valorará haber trabajado con tareas psicofísicas en laboratorio, haber participado en la
+recogida y análisis de datos, y la aplicación de pruebas estadísticas.
+
+Otros
+
+Conocimientos de lenguajes de programación como Python o Matlab, conocimientos y
+experiencia con datos de EEG y de RM/RMf, experiencia práctica con pacientes
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-160318OB-I00
+Computación de altas prestaciones para la integración de datos multiómicos avanzados e
+imágenes biomédicas aplicadas a problemas de medicina personalizada
+
+Dirección
+
+Ignacio Rojas Ruiz
+
+Centro
+
+ETSIIT - CITIC-UGR
+Sistemas inteligentes y computación de alto rendimiento para integrar datos biomédicos y
+
+Objetivo
+
+multi-ómicos. Mejorar el diagnóstico, pronóstico y tratamiento médico mediante el uso de
+DL y modelos generativos, impulsando una medicina personalizada precisa.
+
+Consultas curriculares
+
+irojas@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Integración de fuentes de información heterogénea
+
+contrato
+
+Análisis de datos ómicos y señales e imágenes biomédicas
+Desarrollo de sistemas de machine learning y Deep learning en problemas biomédicos
+complejos. Difusión de resultados
+
+Grados / Licenciaturas
+
+Ing. Informática, Físicas, Matemáticas, Ing. Telecomunicación, (Dobles grados en los
+
+y afines
+
+anteriormente
+
+Másteres y afines
+
+Master en Ciencia de Datos, Big Data, Sistemas Inteligentes, o similares
+
+Cursos
+
+Lenguajes Software valorables (Python , C++ , C, etc)
+Cursos en campo de sistemas inteligentes
+Cursos en campo de biomedicina/bioinformatica
+Cursos en campo de computación de altas prestaciones
+
+Idiomas
+
+Ingles nivel alto
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Experiencia profesional en el ámbito de la investigación en Inteligencia Artificial,
+
+profesional
+
+computación de altas prestaciones y grandes bases de datos.
+
+Otros
+
+Publicaciones relevantes en el ámbito de la inteligencia artificial, computación de altas
+prestaciones y bioinformatica/biomedicina.
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+
+PID2024-160543NB-I00
+
+Título
+
+Nanografenos curvos en acción: Ampliando su síntesis y propiedades
+
+Dirección
+
+M. Araceli González Campaña
+
+Centro
+
+FACULTAD DE CIENCIAS
+CurvedNow pretende avanzar en la síntesis y el desarrollo de nanografenos curvos.
+
+Objetivo
+
+Incluye la síntesis de nanografenos curvos desde distintas aproximaciones y el estudio de
+las propiedades ópticas, quirópticas, electrónicas y supramoleculares.
+
+Consultas curriculares
+
+araceligc@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Revisiones bibliográficas, tareas sintéticas, purificación, caracterización espectroscópica y
+
+contrato
+
+caracterización fotofísica de los derivados obtenidos. Aprendizaje y manejo de técnicas:
+RMN, HRMS, IR, CD, CPL, CV. Trabajo en equipo.
+
+Grados / Licenciaturas
+
+Grado en Química / Grado en Farmacia / Grado en bioquímica / Grado en Ingeniería
+
+y afines
+
+química.
+
+Másteres y afines
+Cursos
+
+Experiencia en programas específicos de química como MestreC o ChemDraw
+Estudios de máster del área de química.
+
+Idiomas
+
+Se evaluará positivamente un nivel medio-alto de inglés
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Experiencia previa en laboratorios.
+
+profesional
+Otros
+
+Actividades de divulgación científica
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+
+PID2024-160586NB-I00
+
+Título
+
+Geometría de superficies y ecuaciones en derivadas parciales geométricas
+
+Dirección
+
+Jose A. Galvez López
+
+Centro
+
+Facultad de Ciencias
+Obtener nuevos resultados de relevancia sobre problemas en la intersección de la
+
+Objetivo
+
+geometría de superficies y la teoría analítica de ecuaciones en derivadas parciales
+geométricas.
+
+Consultas curriculares
+
+jagalvez@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Obtención de nuevos resultados en las teorías de geometría de superficies y EDPs
+
+contrato
+
+geométricas, con especial atención a problemas abiertos sobre superficies de curvatura
+media constante, problemas sobredeterminados y EDPs totalmente no lineales.
+
+Grados / Licenciaturas
+
+Grado en Matemáticas/ Doble grado en Matemáticas y Física/ Doble grado en Informática
+
+y afines
+
+y Matemáticas
+
+Másteres y afines
+
+Máster en Matemáticas/ Máster en Física y Matemáticas
+
+Cursos
+Idiomas
+
+Inglés (nivel medio o alto)
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Se valorarán las publicaciones en temáticas afines al proyecto
+
+profesional
+Otros
+
+Formación adquirida en grado y máster relacionada con la temática del proyecto
+(asignaturas optativas, TFG y TFM). Participación en eventos científicos como cursos,
+seminarios y congresos. Realización de estancias. Manejo de software matemático.
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-161048NB-I00
+La formación de la Tierra de Guadix. Nuevos paisajes y formas de habitar el territorio
+entre los siglos IV-XDC
+
+Dirección
+
+José Mª Martín Civantos
+
+Centro
+
+Dpto. de Historia Medieval y CCTTHH. Facultad de Filosofía y Letras
+
+Objetivo
+Consultas curriculares
+
+Análisis integral de la Tierra de Guadix en el periodo comprendido entre los siglos IV y X
+d.C.
+civantos@go.ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Revisión de documentación; participación en intervenciones arqueológicas; elaboración de
+
+contrato
+
+cartografía de referencia y temática; análisis espaciales; redacción de artículos científicos y
+de divulgación.
+
+Grados / Licenciaturas
+
+Arqueología
+
+y afines
+Másteres y afines
+
+Historia/Arqueología
+
+Cursos
+Idiomas
+
+Inglés B1
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+- Técnico en excavaciones arqueológicas de época medieval
+
+profesional
+
+- Experiencia demostrable en el uso de SIG y GeoDB
+
+Otros
+
+- Expediente académico, nota media mínima: 9.0
+- Se valorarán positivamente la obtención de becas de colaboración y/o inicio a la
+investigación
+- Se valorará positivamente la elaboración de publicaciones y la participación en reuniones
+científicas
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-161093OB-I00
+Antagonismo del receptor sigma-1: una nueva estrategia terapéutica con propiedades
+analgésicas y modificadoras de la enfermedad en la artritis reumatoide
+
+Dirección
+
+Francisco Rafael Nieto López
+
+Centro
+
+Facultad Medicina-Centro de Investigación Biomédica
+Nuestro objetivo es estudiar los mecanismos implicados en el efecto antiartrítico del
+
+Objetivo
+
+antagonismo σ1 y estudiar posibles sinergias en el efecto analgésico y antiartrítico entre
+antagonistas σ1 y fármacos antirreumáticos a nivel preclínico.
+
+Consultas curriculares
+
+fnieto@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Fundamentalmente ensayos conductuales en ratas con artritis reumatoide para evaluar
+
+contrato
+
+analgesia y pérdida de función, tratamiento farmacológico, ensayos histológicos, IHC,
+FACs, ELISA, MRI, proteómica, cultivos celulares, entre otros
+
+Grados / Licenciaturas
+
+Bioquimica / Biología /Biomedicina / Farmacia y afines
+
+y afines
+Másteres y afines
+
+Máster en Neurociencias o Biomedicina
+
+Cursos
+
+Recomendable curso habilitador para el trabajo con animales de experimentación
+(Procedimientos A, B y C)
+Valorable cursos de formación en bioinformática, estadística
+
+Idiomas
+
+Nivel de Inglés Alto
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Experiencia demostrable en la realización de ensayos conductuales en roedores, ensayos
+
+profesional
+
+inmunohistoquímicos e histológicos, cultivos, proteómica y en general de todas las
+técnicas que se usarán en el proyecto. Programas Estadísticos y Bioinformática.
+
+Otros
+
+Publicaciones. Participación en congresos y reuniones científicas. Contratos o becas de
+Investigación. Estancias. Reconocimientos académicos
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-161122OB-I00
+Innovación de procesos sostenibles de producción de proteína animal y vegetal y mejora
+de la salud del suelo mediante el uso de la mosca soldado negra (Hermetia illucens)
+
+Dirección
+
+Jesus Dionisio Fernández Bayo
+
+Centro
+
+Universidad de Grananda - Facultad de Farmacia
+Convertir el estiércol animal en una fuente de proteína animal mediante el uso de las larvas
+
+Objetivo
+
+de mosca soldado negra (Hermetia illucens) y estudiar el impacto del excremento de la
+larva en la calidad del suelo y en la producción sostenible leguminosas
+
+Consultas curriculares
+
+jdfbayo@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+- Desarrollar experimentos de desarrollo de larvas de mosca soldado negra.
+
+contrato
+
+- Realizar ensayos sobre el fenotipo simbiótico y el crecimiento de leguminosas.
+- Caracterización física, química y microbiológica de diferentes sustratos.
+
+Grados / Licenciaturas
+
+Ciencia y Tecnología de los Alimentos/Ciencias Ambientales/Biología
+
+y afines
+Másteres y afines
+
+Avances
+
+en
+
+Calidad
+
+y
+
+Tecnología
+
+Alimentaria/Biología
+
+Agraria
+
+y
+
+Acuicultura/Biotecnología
+Cursos
+
+-Cursos relacionados con análisis de suelos o sustratos orgánicos
+-Cursos relacionados con Bioinformática
+-Cursos relacionados con la economía circular
+
+Idiomas
+
+Inglés Medio
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Se valorará positivamente alguna:
+
+profesional
+
+-Experiencia en cría de insectos y/o plantas
+-Técnicas de análisis de laboratorio
+-Secuenciación y bioinformática de muestras biológicas
+-Publicaciones científicas, contribuciones a congreso, divulgación...
+
+Otros
+
+Persona multidisciplinar, diligente, independiente y motivada por la sostenibilidad
+Se requiere trabajar con insectos y residuos orgánicos
+Habrá desplazamientos puntuales para toma de muestras y experimentos en otros
+laboratorios (Almería)
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-161195NB-I00
+The use of solid waste material for the construction of bird nests: Evolutionary and
+ecological implications
+
+Dirección
+
+Juan Diego Ibáñez Álamo
+
+Centro
+
+Facultad de Ciencias
+To study the evolutionary and ecological causes of the use of solid waste material for the
+
+Objetivo
+
+construction of bird nests combining different aspects of Conservation Biology,
+Evolutionary Biology, Ornithology, Entomology, Urban Ecology and Ecophysiology
+
+Consultas curriculares
+
+jia@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Study of avian breeding parameters. Evaluation of ecophysiological variables. Use of
+
+contrato
+
+environmental variables from online databases. Tracking of marked birds. Lab and field
+experiments. Statistical analyses and writing of manuscripts.
+
+Grados / Licenciaturas
+
+Biology degree, Environmental Sciences degree or similar
+
+y afines
+Másteres y afines
+
+We will positively value holding a Master degree in Biology, Ecology, Conservation or
+similar
+
+Cursos
+
+We will positively value courses on bird tracking, bird ringing, GIS, remote sensing,
+ornithology, statistical analyses, conservation biology, movement ecology, behavioral
+ecology, ecophysiology, evolutionary biology or urban ecology
+
+Idiomas
+
+English or Spanish (B2 level or higher; alternatively as mother tonge evaluated in
+interview).
+
+Entrevista
+
+Only if necessary
+
+Experiencia
+
+We will positively value previous collaboration in national/international projects regarding
+
+profesional
+
+bird conservation, particularly breeding biology or movement ecology. Also report writing
+on conservation biology.
+
+Otros
+
+We will consider scientific articles; Degree qualification/marks; Fellowships, grants and
+contracts; Prizes and awards; Conference presentations; Driving license; Field and lab
+work experience; Team work skills and attitude; Motivation and reference lette
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-161343OB-I00
+Procesos de digitalización, desarrollo e igualdad de género en África: Bancas móviles y
+empoderamiento digital femenino
+
+Dirección
+
+M. Soledad Vieitez Cerceño
+
+Centro
+
+Departamento de Sociología, Facultad de Ciencias Políticas y Sociología.
+Identificación y mapeo de las estrategias financieras digitales de las emprendedoras del
+
+Objetivo
+
+sector agroalimentario urbano de Bissau (Guinea-Bissau), de Praia y Mindelo (Cabo
+Verde) con perspectiva de empoderamiento femenino y de compatibilidad cultural.
+
+Consultas curriculares
+
+africaines@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Tareas de revisión bibliográfica especializada, trabajo de campo; análisis de datos;
+
+contrato
+
+participación en la diseminación de resultados (congresos, reuniones científicas,
+publicaciones); apoyo a IPs en tareas organizativas (eg. web, RR.SS, prensa...)
+
+Grados / Licenciaturas
+
+Sociología, Antropología, Ciencias Sociales, Estudios Internacionales, Ciencia Política.
+
+y afines
+Másteres y afines
+
+Estudios de las Mujeres y de Género, Programas Sociales, DDHH, Globalización
+
+Cursos
+
+Formación en materia de estudios de las mujeres y de género. Conocimientos sobre nuevas
+tecnologías, digitalización u otros relacionados con el objetivo del proyecto.
+
+Idiomas
+
+Competencia alta en idiomas (en particular, portugués e inglés), manejo de lenguas
+locales.
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Experiencia internacional demostrada y experiencia investigadora afín y/o trabajos de
+
+profesional
+
+campo previos en los contextos de investigación.
+
+Otros
+
+Manejo de software de gestión de bibliografía y de análisis de datos (eg. Nvivo). Manejo
+de Microsoft Office, Microsoft Project, Wordpress, Adobe Photoshop e Illustrator, Canva,
+iMovie y RR.SS. (Twitter, Facebook, Blogs, YouTube, Prezi).
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+
+PID2024-161345NB-I00
+Evaluación del impacto de estresores de cambio global en la relación consumidor-recurso
+
+Título
+
+mediante la integración de la Estequiometría Ecológica, Ecología de Rasgos Fenotípicos y
+Teoría Metabólica (ESTECOME)
+
+Dirección
+
+Manuel Villar Argaiz
+
+Centro
+
+Facultad de Ciencias / Instituto del Agua (Universidad de Granada)
+ESTECOME aborda cómo los cambios globales del Antropoceno alteran las interacciones
+
+Objetivo
+
+consumidor-recurso. Integra la Estequiometría Ecológica, la Ecología de Rasgos
+Fenotípicos y la Teoría Metabólica Ecológica para la compresión y gestión de ecosistemas.
+
+Consultas curriculares
+
+mvillar@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+- Monitorización ecosistemas acuáticos (físico-químico y biológico), datos satelitales,
+
+contrato
+
+cultivos de algas y zooplancton, experimentación en micro- y mesocosmos, análisis de
+series temporales
+- Congresos y publicaciones
+- Colaboración Grupo RNM367
+
+Grados / Licenciaturas
+
+Biología / Ciencias Ambientales o afín
+
+y afines
+Másteres y afines
+
+Biología fundamental, Genética y Evolución, Biología de la conservación o similar.
+
+Cursos
+
+-Programa R, o similares, o algoritmos de machine learning
+-Sistemas de Información Geográfica (SIG)
+-Estadística básica y avanzada, series temporales
+-Análisis de datos y bioinformática
+
+Idiomas
+
+Inglés (B2 o superior)
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Se valorará la experiencia de trabajo experimental en laboratorio y campo, así como la
+
+profesional
+
+investigación (publicaciones científicas, contribuciones a congresos, participación en
+proyectos) y preferentemente en temas afines al proyecto.
+
+Otros
+
+-Técnicas genéticas (genómica, transcriptómica), Bioinformática
+-Movilidad y disponibilidad estancias nacionales o internacionales
+-Permiso de conducir B
+-Capacidad para trabajar en colaboración en un entorno multidisciplinar
+-Cartas referencia
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-161348OB-I00
+Herramientas computacionales para el estudio y restauración de obras de arte en el ámbito
+del patrimonio cultural
+
+Dirección
+
+Domingo Martín Perandrés
+
+Centro
+
+CITIC_UGR (ETSIIT)
+Desarrollo de algoritmos eficientes para el análisis y clasificación de obras pictóricas
+
+Objetivo
+
+Consultas curriculares
+
+basados en la dimensión fractal y en programación GPU. Más información en:
+https://calipso.ugr.es/xmapslab.org/ y https://www.ugr.es/~demiras/
+demiras@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Revisión bibliográfica; estudio, diseño e implementación de algoritmos y modelos;
+
+contrato
+
+evaluación y análisis de resultados; redacción de artículos científicos.
+
+Grados / Licenciaturas
+
+Ingeniería Informática / Titulaciones STEM (Ingenierías, Matemáticas, Física)
+
+y afines
+Másteres y afines
+
+Máster en Desarrollo de Software / Máster en el área de la Informática
+
+Cursos
+
+Cursos sobre informática gráfica, modelado, simulación, programación, programación con
+GPU, C++, Python, CUDA, Matlab, ciencia de datos, aprendizaje automático.
+
+Idiomas
+
+Inglés Nivel medio
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Trabajo o investigación previa en temática afín al proyecto
+
+profesional
+Otros
+
+Publicaciones científicas; participación en proyectos de investigación; estancias de
+investigación; tecnologías conocidas
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-161389OB-I00
+Bioética y prácticas relacionadas con el final de la vida II. Observatorio nacional sobre
+final de la vida
+
+Dirección
+
+David Rodríguez-Arias Vailhen
+
+Centro
+
+Facultad de Filosofía y Letras
+
+Objetivo
+Consultas curriculares
+
+El proyecto INEDyTO-3 se centra en generar evidencia empírica y mejorar la calidad
+epistémica de las controversias públicas y bioéticas sobre el final de la vida.
+dra@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Tesis doctoral. Presentaciones en congresos y producción científica, en colaboración con
+
+contrato
+
+el resto del equipo, relacionados con el proyecto. Participación en reuniones y seminarios.
+Colaboración en la organización de actividades.
+
+Grados / Licenciaturas
+
+Grado I: Filosofía, Sociología, Humanidades, Ciencias Políticas. Grado 2: CC Salud,
+
+y afines
+
+Derecho
+
+Másteres y afines
+
+Master 1: Bioética, Éticas Aplicadas, Ciencia de Datos. Máster 2: Filosofía, Lógica y Fª
+Ciencia
+
+Cursos
+
+Se valorarán positivamente cursos relacionados con la temática del proyecto (bioética,
+final de vida, ética aplicada, filosofía, análisis de datos y estadística).
+
+Idiomas
+
+Inglés (Alto); Francés
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+No se precisa
+
+profesional
+Otros
+
+Se valorará positivamente las publicaciones científicas y participación en congresos en
+temáticas afines a la del proyecto. También la capacidad para trabajar en colaboración en
+un entorno multidisciplinar e internacional.
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-161630OA-I00
+Ingeniería
+
+de
+
+consorcios
+
+microbianos
+
+para
+
+la
+
+valorización
+
+de
+
+subproductos
+
+lignocelulósicos
+
+Dirección
+
+Ignacio Moya Ramírez
+
+Centro
+
+Facultad de Ciencias
+Enriquecer consorcios microbianos a partir de microbiota de subproductos vegetales
+
+Objetivo
+
+Caracterizar las interacciones metabólicas en el consorcio
+Modificar los consorcios introduciendo en ellos una cepa exógena (Bacillus s.p.,
+Pseudomonas s.p)
+
+Consultas curriculares
+
+ignaciomr@go.ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Cultivo de consorcios/co-cultivos microbianos.
+
+contrato
+
+Encapsulación de microorganismos para su introducción en los consorcios microbianos.
+Preprocesado de subproductos vegetales para su uso como substrato en cultivos
+microbianos.
+
+Grados / Licenciaturas
+
+Grado en Biología / Grado en Ingeniería Química / Grado en Biotecnología
+
+y afines
+Másteres y afines
+
+Master en investigación y avances en Microbiología / Master en Biotecnología
+
+Cursos
+
+Cursos relacionados con la temática del proyecto como economía circular o técnicas de
+laboratorio
+Cursos de interés general como prevención de riesgos en el laboratorio, comunicación
+efectiva en ciencia o escritura y publicación de artículos
+
+Idiomas
+
+Inglés Nivel B2
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Experiencia en cultivos de microorganismos (bacterias, levaduras y hongos) y en técnicas
+
+profesional
+
+de co-cultivo microbiano
+Experiencia en cultivos en biorreactores
+Contratos de investigación en el campo de la valorización biológica de subproductos
+vegetales
+
+Otros
+
+Presentaciones en congresos, especialmente comunicaciones orales en congresos
+internacionales.
+Publicaciones científicas.
+Participación en actividades de divulgación.
+Colaboración acreditada en la supervisión de alumnos/as de TFGs y TFMs.
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-161902OB-I00
+Verificación de Intenciones y Generación de Lógica Inteligente para Acciones
+Automatizadas contra Amenazas a la Seguridad de Redes y Sistemas
+
+Dirección
+
+Pedro García Teodoro
+
+Centro
+
+CITIC-UGR
+VIGILANT es una plataforma innovadora que mejora la eficiencia de los SOC mediante
+
+Objetivo
+
+LLM, para el análisis de eventos de seguridad y validación segura de acciones y que
+reducirá el tiempo de respuesta ante incidentes.
+
+Consultas curriculares
+
+rmagan@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+La persona contratada centrará su investigación de acuerdo a los objetivos principales del
+
+contrato
+
+proyecto VIGILANT: análisis y mitigación de incidentes de seguridad basado en el uso de
+modelos LLM.
+
+Grados / Licenciaturas
+
+Grado en Ingeniería de Tecnologías de Telecomunicación / Grado en Ingeniería
+
+y afines
+
+Informática
+
+Másteres y afines
+
+Másteres en Ciencia de Datos, Ciberseguridad, Ingeniería Informática y/o de
+Telecomunicación.
+
+Cursos
+
+Python avanzado. Agentes LLM, servicios MCP (Model Control Protocol), prompt
+engineering, fine-tunning y RAG (Retrieval Agumented Generation) de LLM.
+Frameworks de uso de LLM como LlamaIndex, Ollama2, LangChain, LangFuse. Ciencia
+de datos y Big Data
+
+Idiomas
+
+Inglés Nivel alto
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Se valorará experiencia laboral previa para el despliegue, entrenamiento y uso de LLM así
+
+profesional
+
+como experiencia previa en investigación. MLOps y LLMOps.
+
+Otros
+
+Se valorarán dobles grados en Ingeniería y Ciencias.
+Se valorará certificación en inglés B2 o superior.
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-162154OB-I00
+Mejorando la Caracterización Vertical de Aerosoles a Escala Continental mediante
+Observaciones Armonizadas
+
+Dirección
+
+Francisco Jesús Navas Guzmán
+
+Centro
+
+Instituto Interuniversitario de investigación del Sistema Tierra (IISTA)
+El objetivo general del proyecto es desarrollar sinergias entre observaciones de
+
+Objetivo
+
+teledetección satelitales y terrestres para mejorar el conocimiento de las propiedades
+ópticas y microfísicas del aerosol atmosférico con resolución vertical.
+
+Consultas curriculares
+
+fguzman@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+Sus principales tareas incluirán el desarrollo, armonización y el procesamiento de sinergias
+
+contrato
+
+entre datos de teledetección terrestre (AERONET, EARLINET, E-PROFILE), y satelital
+(EarthCARE, PACE y Sentinel-4/5), usando el algoritmo GRASP.
+
+Grados / Licenciaturas
+
+Graduado en Física, Licenciado en Meteorología
+
+y afines
+Másteres y afines
+
+Máster GEOMET o afín
+
+Cursos
+
+Cursos de programación.
+Cursos de especialización en el aerosol atmosférico.
+Cursos de especialización en técnicas de teledetección.
+
+Idiomas
+
+Inglés, nivel alto
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+No se requiere experiencia profesional previa, pero se valorará positivamente la
+
+profesional
+
+experiencia en el manejo y mantenimiento de instrumentación de teledetección
+atmosférica, así como en el procesamiento y análisis de datos satelitales.
+
+Otros
+
+Alta motivación para llevar a cabo investigación
+Disponibilidad para llevar a cabo estancias internacionales
+Capacidad de realizar campañas que incluyen trabajo de campo
+Capacidad de trabajo en equipo, capacidad de comunicación oral y escrita
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+
+PID2024-162606NB-I00
+
+Título
+
+El papel de los retrovirus endógenos en el desarrollo embrionario de vertebrados
+
+Dirección
+
+Sara Rodriguez Heras
+
+Centro
+
+Centro Pfizer-Universidad de Granada-Junta de Andalucía de Genómica e Investigación
+Oncológica-GENYO
+El objetivo del proyecto es investigar el papel de los retrovirus endógenos (ERVs) durante
+
+Objetivo
+
+el desarrollo embrionario, incluyendo la identificación de copias responsables de cada
+función y su mecanismo molecular.
+
+Consultas curriculares
+
+sararheras@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+-Caracterización del patrón de expresión de ERVs en el pez cebra
+
+contrato
+
+-Ensayos de perdida de función mediante sistemas CRISPR/Cas
+-Técnicas de biología molecular y celular (clonaje, mutagénesis, transcripción in vitro,
+qRT-PCR, inmunofluorescencia...)
+
+Grados / Licenciaturas
+
+Biomedicina/Bioquímica/Biología
+
+y afines
+Másteres y afines
+
+Máster en Biomedicina, Biología Molecular o Microbiología.
+
+Cursos
+Idiomas
+
+Inglés nivel medio o alto
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Se valorará:
+
+profesional
+
+- La experiencia investigadora relacionada con los Retrovirus Endógenos o Elementos
+Transponibles.
+- La experiencia en el empleo de sistemas CRISPR/Cas.
+- La experiencia en técnicas de biología molecular (clonaje, transcripción, etc).
+
+Otros
+
+Manejo de herramientas bioinformáticas y análisis estadísticos.
+Programación en R.
+
+Vicerrectorado de
+Investigación y Transferencia
+
+Datos del proyecto
+Referencia
+Título
+
+PID2024-162715OB-I00
+Riesgos químicos emergentes en alimentos de origen vegetal: Estrategias analíticas para el
+estudio de toxinas de plantas, micotoxinas y plaguicidas en el marco del exposoma
+
+Dirección
+
+Ana M. García Campaña
+
+Centro
+
+FACULTAD DE CIENCIAS
+Aplicación de técnicas de análisis semidirigido y no dirigido para identificar agentes
+
+Objetivo
+
+químicos de riesgo emergentes para la salud, enfocadas a la detección de toxinas de
+plantas y de residuos de plaguicidas y micotoxinas en alimentos.
+
+Consultas curriculares
+
+maykelhm@ugr.es
+
+Orientación sobre méritos valorables
+Tareas a realizar en el
+
+- Desarrollo y validación de métodos LC-MS y CE-MS
+
+contrato
+
+- Optimización de tratamientos de muestra
+- Estudios de presencia de toxinas de plantas, micotoxinas y plaguicidas en alimentos y
+biofluidos
+- Difusión de resultados en publicaciones y congresos.
+
+Grados / Licenciaturas
+
+Grado en Química / Grado en Biotecnología / Grado en Bioquímica
+
+y afines
+Másteres y afines
+
+Máster en Química o afínes, en condiciones de matricularse en el programa de Doctorado
+en Química
+
+Cursos
+
+Cursos o formación en técnicas analíticas separativas y espectrometría de masas. Manejo
+del lenguaje de programación R enfocado al análisis estadístico o en el uso de software
+para el tratamiento de datos.
+
+Idiomas
+
+Inglés, nivel alto
+
+Entrevista
+
+Sólo si es necesario
+
+Experiencia
+
+Experiencia en laboratorios de análisis, conocimiento de: técnicas separativas
+
+profesional
+
+(cromatografía de líquidos, electroforesis capilar), espectrometría de masas, preparación
+de muestras (alimentos y biofluidos) y tratamiento de datos multivariantes.
+
+Otros
+
+
