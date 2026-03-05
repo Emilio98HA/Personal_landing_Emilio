@@ -623,14 +623,8 @@
         .edu-logo {
             height: 44px;
             margin-bottom: 24px;
-            filter: grayscale(100%) brightness(0.7);
-            transition: 0.3s;
-            align-self: center;
             object-fit: contain;
-        }
-
-        .glass-card:hover .edu-logo {
-            filter: grayscale(0%) brightness(1);
+            align-self: center;
         }
 
         .glass-card h3 {
@@ -999,7 +993,7 @@
     <section id="about">
         <div class="container reveal">
             <div class="section-header">
-              <!--  <span class="section-number">01</span> -->
+                <!--  <span class="section-number">01</span> -->
                 <div>
                     <h2 class="section-title">Duality</h2>
                     <p class="section-subtitle">One Engineer. Two Perspectives.</p>
@@ -1078,7 +1072,7 @@
     <section id="experience">
         <div class="container reveal">
             <div class="section-header">
-             <!--   <span class="section-number">02</span> -->
+                <!--   <span class="section-number">02</span> -->
                 <div>
                     <h2 class="section-title">Industry</h2>
                     <p class="section-subtitle">Applied Solutions</p>
@@ -1094,7 +1088,7 @@
                 </div>
                 <div class="glass-card">
                     <p class="timeline-date">2025 — Present</p>
-                    <h3>Data Analytics & Automation Consultant</h3>
+                    <h3>Data Engineering &amp; AI Automation Consultant</h3>
                     <h4>Swiss Just · Remote · Freelance</h4>
                     <ul>
                         <li>Implemented a <strong>ceiling greedy algorithm</strong> — a deliberate design choice over
@@ -1102,6 +1096,12 @@
                             consultants meet their sales threshold, including promotional gift resolution.</li>
                         <li>Built an end-to-end pipeline: parsed product catalog from PDF into SQLite and automated
                             personalized WhatsApp message delivery per consultant.</li>
+                        <li>Designed a <strong>self-referential SQLite schema</strong> from raw Excel exports modelling
+                            the upline–consultant hierarchy, traversed the organizational tree to auto-generate
+                            personalized WhatsApp messages per consultant, and distributed results across
+                            <strong>individual Google Sheets per leader</strong> (scoped to their subtree) plus a
+                            centralized master sheet.
+                        </li>
                         <li>Designed a Python analytics pipeline to monitor billing performance of a <strong>100-member
                                 commercial team</strong>.</li>
                         <li>Automated messaging workflows contributing to the <strong>retention of 25
@@ -1118,7 +1118,7 @@
     <section id="research">
         <div class="container reveal">
             <div class="section-header">
-             <!--   <span class="section-number">03</span> -->
+                <!--   <span class="section-number">03</span> -->
                 <div>
                     <h2 class="section-title">Research</h2>
                     <p class="section-subtitle">Q1 Contributions</p>
@@ -1132,10 +1132,29 @@
                     <p class="research-authors">Axel Martinez, <strong>Emilio Hernandez</strong>, Matthieu Olague,
                         Gustavo Olague</p>
                     <p
-                        style="font-size: 14px; color: var(--text-dim); margin-top: -15px; margin-bottom: 24px; line-height: 1.6;">
-                        Theoretical development and implementation of the <strong>Dichotomy Tuna</strong> algorithm.
-                        Leveraging metaheuristics for high-dynamic-range visual recovery.
+                        style="font-size: 14px; color: var(--text-dim); margin-top: -15px; margin-bottom: 12px; line-height: 1.6;">
+                        Proposed and built the <strong>Dichotomy Tuna</strong> algorithm — a 7-parameter metaheuristic
+                        extension of the dichotomy model that solves the pixel-inversion problem in overexposed regions. <!--
+                        achieving <strong>1st place</strong> on LOLv2-synthetic PSNR against 26 state-of-the-art
+                        methods. -->
                     </p>
+                    <p
+                        style="font-size: 14px; color: var(--text-dim); margin-top: 8px; margin-bottom: 12px; line-height: 1.6;">
+                        Optimized both models for the low-light enhancement problem using genetic algorithms.
+                    </p>
+                    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px;">
+                        <span
+                            style="font-family: 'DM Mono', monospace; font-size: 9px; padding: 3px 9px; border: 1px solid var(--border); border-radius: 2px; color: var(--accent); background: var(--accent-dim); letter-spacing: 0.08em; text-transform: uppercase;">Validation</span>
+                        <span
+                            style="font-family: 'DM Mono', monospace; font-size: 9px; padding: 3px 9px; border: 1px solid var(--border); border-radius: 2px; color: var(--accent); background: var(--accent-dim); letter-spacing: 0.08em; text-transform: uppercase;">Software</span>
+                        <span
+                            style="font-family: 'DM Mono', monospace; font-size: 9px; padding: 3px 9px; border: 1px solid var(--border); border-radius: 2px; color: var(--accent); background: var(--accent-dim); letter-spacing: 0.08em; text-transform: uppercase;">Methodology</span>
+                        <span <span
+                            style="font-family: 'DM Mono', monospace; font-size: 9px; padding: 3px 9px; border: 1px solid var(--border); border-radius: 2px; color: var(--accent); background: var(--accent-dim); letter-spacing: 0.08em; text-transform: uppercase;">Investigation</span>
+                        <span
+                            style="font-family: 'DM Mono', monospace; font-size: 9px; padding: 3px 9px; border: 1px solid var(--border); border-radius: 2px; color: var(--accent); background: var(--accent-dim); letter-spacing: 0.08em; text-transform: uppercase;">Data
+                            Curation</span>
+                    </div>
                     <a href="https://doi.org/10.1016/j.asoc.2025.113546" target="_blank" class="hero-link"
                         style="margin-top: auto; align-self: flex-start;">Read Paper →</a>
                 </div>
@@ -1143,12 +1162,26 @@
                     <span class="research-meta">Q1 Journal · 2025</span>
                     <h3>Modeling Image Tone Dichotomy with the Power Function</h3>
                     <span class="research-journal">Applied Mathematical Modelling (Elsevier)</span>
-                    <p class="research-authors">Axel Martinez, Gustavo Olague, <strong>Emilio Hernandez</strong></p>
+                    <p class="research-authors" style="flex-grow: 0;">Axel Martinez, Gustavo Olague, <strong>Emilio
+                            Hernandez</strong></p>
                     <p
-                        style="font-size: 13px; color: var(--text-muted); margin-top: -20px; margin-bottom: 24px; line-height: 1.6;">
-                        Supported the foundational dichotomy model development through rigorous evaluation and
-                        experimental validation.
+                        style="font-size: 14px; color: var(--text-dim); margin-top: -15px; margin-bottom: 12px; line-height: 1.6; flex-grow: 1;">
+                        Validated the dichotomy model for low-light image enhancement, running the full LOL benchmark
+                        against 15 state-of-the-art methods.
                     </p>
+                    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px;">
+                        <span
+                            style="font-family: 'DM Mono', monospace; font-size: 9px; padding: 3px 9px; border: 1px solid var(--border); border-radius: 2px; color: var(--accent); background: var(--accent-dim); letter-spacing: 0.08em; text-transform: uppercase;">Visualization</span>
+                        <span
+                            style="font-family: 'DM Mono', monospace; font-size: 9px; padding: 3px 9px; border: 1px solid var(--border); border-radius: 2px; color: var(--accent); background: var(--accent-dim); letter-spacing: 0.08em; text-transform: uppercase;">Validation</span>
+                        <span
+                            style="font-family: 'DM Mono', monospace; font-size: 9px; padding: 3px 9px; border: 1px solid var(--border); border-radius: 2px; color: var(--accent); background: var(--accent-dim); letter-spacing: 0.08em; text-transform: uppercase;">Software</span>
+                        <span
+                            style="font-family: 'DM Mono', monospace; font-size: 9px; padding: 3px 9px; border: 1px solid var(--border); border-radius: 2px; color: var(--accent); background: var(--accent-dim); letter-spacing: 0.08em; text-transform: uppercase;">Investigation</span>
+                        <span
+                            style="font-family: 'DM Mono', monospace; font-size: 9px; padding: 3px 9px; border: 1px solid var(--border); border-radius: 2px; color: var(--accent); background: var(--accent-dim); letter-spacing: 0.08em; text-transform: uppercase;">Data
+                            Curation</span>
+                    </div>
                     <a href="https://doi.org/10.1016/j.apm.2025.116538" target="_blank" class="hero-link"
                         style="margin-top: auto; align-self: flex-start;">Read Paper →</a>
                 </div>
@@ -1158,11 +1191,14 @@
                     <span class="research-journal">Data in Brief (Elsevier)</span>
                     <p class="research-authors">Axel Martinez, Matthieu Olague, Gustavo Olague, <strong>Emilio
                             Hernandez</strong>, Julio Cesar Lopez-Arredondo</p>
-                    <p
-                        style="font-size: 13px; color: var(--text-muted); margin-top: -20px; margin-bottom: 24px; line-height: 1.6;">
-                        Orchestrated the adversarial dataset construction and validation protocols for low-light vision
-                        benchmarks.
-                    </p>
+                    <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: -12px; margin-bottom: 24px;">
+                        <span
+                            style="font-family: 'DM Mono', monospace; font-size: 9px; padding: 3px 9px; border: 1px solid var(--border); border-radius: 2px; color: var(--green); background: var(--green-dim); letter-spacing: 0.08em; text-transform: uppercase;">Software</span>
+                        <span
+                            style="font-family: 'DM Mono', monospace; font-size: 9px; padding: 3px 9px; border: 1px solid var(--border); border-radius: 2px; color: var(--green); background: var(--green-dim); letter-spacing: 0.08em; text-transform: uppercase;">Methodology</span>
+                        <span
+                            style="font-family: 'DM Mono', monospace; font-size: 9px; padding: 3px 9px; border: 1px solid var(--border); border-radius: 2px; color: var(--green); background: var(--green-dim); letter-spacing: 0.08em; text-transform: uppercase;">Investigation</span>
+                    </div>
                     <a href="https://www.sciencedirect.com/science/article/pii/S235234092500410X" target="_blank"
                         class="hero-link" style="margin-top: auto; align-self: flex-start;">Dataset →</a>
                 </div>
@@ -1183,7 +1219,7 @@
     <section id="education">
         <div class="container reveal">
             <div class="section-header">
-               <!-- <span class="section-number">04</span> -->
+                <!-- <span class="section-number">04</span> -->
                 <div>
                     <h2 class="section-title">Academia</h2>
                     <p class="section-subtitle">Research Foundations</p>
@@ -1195,11 +1231,18 @@
                     <p class="timeline-date">MSc · 2022 — 2024</p>
                     <h3>Computer Science</h3>
                     <h4>CICESE · Baja California, México</h4>
-                    <p style="margin-bottom: 24px;">Thesis produced the <strong>Dichotomy Tuna</strong> algorithm — a
+                    <p style="margin-bottom: 16px;">Thesis produced the <strong>Dichotomy Tuna</strong> algorithm — a
                         novel variant
-                        of the mathematical dichotomy model — leading to one Q1 publications in <strong>Applied Soft Computing</strong>.
+                        of the mathematical dichotomy model — leading to one Q1 publications in <strong>Applied Soft
+                            Computing</strong>.
                         Specialized in evolutionary computation and metaheuristic optimization for real-world vision
                         applications.</p>
+                    <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 24px; line-height: 1.6;">
+                        Advised by Dr. Gustavo Olague —
+                        recognized among the <a href="https://www.mdpi.com/about/announcements/6991" target="_blank"
+                            style="color: var(--accent); text-decoration: none;"><strong>World's Top 2%
+                                Scientists</strong></a> (Stanford · Elsevier, 2023).
+                    </p>
                     <div class="hero-links" style="margin-top: auto;">
                         <a href="https://cicese.repositorioinstitucional.mx/jspui/handle/1007/4197" target="_blank"
                             class="hero-link">Thesis</a>
@@ -1228,7 +1271,7 @@
     <section id="projects">
         <div class="container reveal">
             <div class="section-header">
-               <!-- <span class="section-number">05</span> -->
+                <!-- <span class="section-number">05</span> -->
                 <div>
                     <h2 class="section-title">Projects</h2>
                     <p class="section-subtitle">Explorations</p>
